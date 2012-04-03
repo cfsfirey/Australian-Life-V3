@@ -8,6 +8,10 @@ if (isServer) then /* Setup server variables */
 
 
 };
+RPP_var_emergency = 
+[
+    "FireFighter1", "FireFighter2", "Paramedic1", "Paramedic2"
+];
 
 RPP_var_civilians = 
 [

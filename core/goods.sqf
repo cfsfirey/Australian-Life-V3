@@ -124,7 +124,35 @@ RPP_var_goods =
     ["Lada2_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Lada Decorated", "No Desc"], [14080,7400], 60, "core\items\noUse.sqf", 100, true, [1, [ ["IronBar", 9],["Tyre", 4], ["Rubber", 5], ["Copper", 12], ["Vinyl" ,4], ["ElecComp", 5]]], false],
     ["Volha_1_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Old Car (Blue)", "No Desc"], [13120, 6900], 60, "core\items\noUse.sqf", 100, true, [1, [ ["IronBar", 9],["Tyre", 4], ["Rubber", 5], ["Copper", 8], ["Vinyl" ,4], ["ElecComp", 5]]], false],
     ["Volha_2_TK_CIV_EP1", ["VEHICLE", "CAR"], ["Old Car (White)", "No Desc"], [13120, 6900], 60, "core\items\noUse.sqf", 100, true, [1, [ ["IronBar", 9],["Tyre", 4], ["Rubber", 5], ["Copper", 8], ["Vinyl" ,4],["ElecComp", 5]]], false],
-    
+    ["Civcarwh", ["VEHICLE", "CAR"], ["Holden Monaro White.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["Civcarsl", ["VEHICLE", "CAR"], ["Holden Monaro.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["Civcarre", ["VEHICLE", "CAR"], ["Holden Monaro Red.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["Civcar", ["VEHICLE", "CAR"], ["Holden Monaro.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["Civcargr", ["VEHICLE", "CAR"], ["Holden Monaro Green.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["Civcarbu", ["VEHICLE", "CAR"], ["Holden Monaro Blue.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["civcarbl", ["VEHICLE", "CAR"], ["Holden Monaro Black.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["FORD_MUSTANG_SHELBY_COBRA3", ["VEHICLE", "CAR"], ["Ford Shelby Cobra.", "No Desc"], [27600, 13800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["FORD_MUSTANG_SHELBY_COBRA2", ["VEHICLE", "CAR"], ["Ford Shelby Cobra.", "No Desc"], [27600, 13800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["FORD_MUSTANG_SHELBY_COBRA", ["VEHICLE", "CAR"], ["Ford Shelby Cobra.", "No Desc"], [27600, 13800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["FordFalconBlack", ["VEHICLE", "CAR"], ["Ford Falcon Black.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["FordFalconBlue", ["VEHICLE", "CAR"], ["Ford Falcon Blue.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["FordFalconGreen", ["VEHICLE", "CAR"], ["Ford Falcon Green.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["FordFalcon", ["VEHICLE", "CAR"], ["Ford Falcon.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["FordFalconRed", ["VEHICLE", "CAR"], ["Ford Falcon Red.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["FordFalconSilver", ["VEHICLE", "CAR"], ["Ford Falcon Silver.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["FordFalconWhite", ["VEHICLE", "CAR"], ["Ford Falcon White.", "No Desc"], [22600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["NISSAN_SKYLINE_GT_R_Z3", ["VEHICLE", "CAR"], ["Nissan Skyline GTR Z3.", "No Desc"], [40600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["NISSAN_SKYLINE_V_SPEC", ["VEHICLE", "CAR"], ["Nissan Skyline V Spec.", "No Desc"], [36600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["NISSAN_350Z", ["VEHICLE", "CAR"], ["Nissan 350Z.", "No Desc"], [36600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["NISSAN_SKYLINE_GT_R_Z2", ["VEHICLE", "CAR"], ["Nissan Skyline GTR Z2.", "No Desc"], [36600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["NISSAN_SKYLINE_V_SPEC1", ["VEHICLE", "CAR"], ["Nissan Skyline V Spec.", "No Desc"], [35600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["NISSAN_370Z", ["VEHICLE", "CAR"], ["Nissan Skyline 370Z.", "No Desc"], [35600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["NISSAN_GTR_SPECV3", ["VEHICLE", "CAR"], ["Nissan Skyline V Spec.", "No Desc"], [35600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["NISSAN_GTR_SPECV", ["VEHICLE", "CAR"], ["Nissan Skyline V Spec.", "No Desc"], [35600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["NISSAN_GTR_SPECV2", ["VEHICLE", "CAR"], ["Nissan Skyline V Spec.", "No Desc"], [35600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["NISSAN_GTR_SPECV1", ["VEHICLE", "CAR"], ["Nissan Skyline V Spec.", "No Desc"], [35600, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["a2l_taxi", ["VEHICLE", "CAR"], ["Taxi Cab.", "No Desc"], [1560, 6800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+
     /* Classic Cars */
     ["monaco", ["VEHICLE", "CAR"], ["1968 Dodge Monaco", "No Desc"], [22600, 11800], 120, "core\items\noUse.sqf", 120, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
     ["roadrunner2", ["VEHICLE", "CAR"], ["1969 Road Runner", "Yellow"], [22600, 11800], 120, "core\items\noUse.sqf", 100, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
@@ -138,6 +166,8 @@ RPP_var_goods =
     
 	//Police Cars
 	["Copcar", ["VEHICLE", "CAR"], ["Holden Monaro Standard", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["Fordpatrolbasic", ["VEHICLE", "CAR"], ["Ford Falcon Standard", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["FordUC", ["VEHICLE", "CAR"], ["Ford Falcon UnderCover", "No Desc"], [25000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
 	["CopcarAus", ["VEHICLE", "CAR"], ["Holden Monaro Blue", "No Desc"], [50000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
 	["CopcarAusgreen", ["VEHICLE", "CAR"], ["Holden Monaro Green", "No Desc"], [50000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
 	["Copcarhw", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [19000, 13000], 65, "core\items\noUse.sqf", 220, true, [], false],
@@ -146,6 +176,11 @@ RPP_var_goods =
 	["CopcarNZ", ["VEHICLE", "CAR"], ["Holden Monaro NZ", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
 	["qin_evoix_black", ["VEHICLE", "CAR"], ["Police Evo Black", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false,[true, "singleBlue", [[[0, 0.1, 0.3], [0, 0, 1], 0.04]]]],
 	["Civcarsl", ["VEHICLE", "CAR"], ["Holden Monaro Black", "No Desc"], [50000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false,[true, "singleBlue", [[[0, 0.1, 0.3], [0, 0, 1], 0.04]]]],
+	
+	//Emergency Vehicles
+	["a2l_kme", ["VEHICLE", "CAR"], ["FireTruck", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["a2l_ambulance", ["VEHICLE", "CAR"], ["Ambulance", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["CL_chargerclEMT", ["VEHICLE", "CAR"], ["Sprint Car", "No Desc"], [25000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
 	
     //Pickups
     ["datsun1_civil_1_open", ["VEHICLE", "CAR"], ["Datsun Open (Blue)", "No Desc"], [18580, 9600], 150, "core\items\noUse.sqf", 300, true, [1, [ ["IronBar", 18],["Tyre", 4], ["Rubber", 20], ["Copper", 15], ["Vinyl" , 6], ["ElecComp", 5]]], false],
@@ -190,6 +225,7 @@ RPP_var_goods =
        
  	/* Bushes/Seeds/Trees */
     ["mari_seed", ["ITEM", "SPROUT"], ["Marihuana Seed", "No Desc"], [50,5], 0, "core\items\sprout.sqf", 0, true, [], true],
+	["herion_seed", ["ITEM", "SPROUT"], ["Herion Seed", "No Desc"], [50,5], 0, "core\items\sprout.sqf", 0, true, [], true],
 	["cocaine_seed", ["ITEM", "SPROUT"], ["Cocaine Seeds", "No Desc"], [50,5], 0, "core\items\sprout.sqf", 0, true, [], true],
     ["apple_seed", ["ITEM", "SPROUT"], ["Apple Seed", "No Desc"], [4,1], 0, "core\items\sprout.sqf", 0, true, [], false],
     ["populus_seed", ["ITEM", "SPROUT"], ["Populus Seed", "No Desc"], [4,2], 0, "core\items\sprout.sqf", 0, true, [], false],
@@ -204,6 +240,7 @@ RPP_var_goods =
     
     ["mari", ["ITEM", "DRUG"], ["Marihuana", "No Desc"], [70,10], 1, "core\items\drugUse.sqf", 0, true, [], true],
 	["cocaine", ["ITEM", "DRUG"], ["Cocaine", "No Desc"], [90,15], 1, "core\items\drugUse.sqf", 0, true, [], true],
+	["herion", ["ITEM", "DRUG"], ["Herion", "No Desc"], [70,10], 1, "core\items\drugUse.sqf", 0, true, [], true],
     	
 	//Resources
 	/* Food Resources */

@@ -67,7 +67,7 @@ class RPP_Dlg_Login
             w = 0.85;
             h = 0.2;
             size = 0.08;
-            text = "- Welcome to AussieLife: Reloaded -";
+            text = "- Welcome to Australian Life V3 -";
         };
         
         class LoginWelcome : RPP_StructuredText
@@ -96,7 +96,7 @@ class RPP_Dlg_Login
             idc = 1;
             x = 0.06;
             y = 0.06;
-            text = "Welcome to AussieLife: Reloaded";
+            text = "Welcome To Australian Life";
         };
         
         class TitleBackground : RPP_Background

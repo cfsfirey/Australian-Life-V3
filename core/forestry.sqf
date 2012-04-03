@@ -47,6 +47,7 @@ RPP_var_forestry_sprouts =
 	["larix_seed", "TREE", "larix_tree", "MAP_t_larix3s", 20, ["larix_seed", 8, "sickle", "normal"], 15, "Larix Tree", ["forestry", 50, 3250]],
 	
 	//TIER 5
+	["herion_seed", "BUSH", "herion_bush", "as_b_PinusM1s_EP1", 40, ["herion_seed", 12, "sickle", "normal"], 40, "Herion Bush", ["forestry", 45, 2350]],
 	["maple_seed", "TREE", "maple_tree", "MAP_t_carpinis2s", 40, ["maple_seed", 8, "sickle", "normal"], 15, "Maple Tree", ["forestry", 70, 8000]]
 	
 ];
@@ -57,7 +58,7 @@ if (isServer) then
 };
 
 /* We use this for actions, Note: Case sensitive */ 
-RPP_var_forestry_typeBushes = [ "as_p_fiberPlant_EP1", "MAP_p_urtica", "MAP_t_betula1f", "MAP_c_fern", "as_t_JuniperusC2s_EP1"];
+RPP_var_forestry_typeBushes = [ "as_p_fiberPlant_EP1", "as_b_PinusM1s_EP1", "MAP_p_urtica", "MAP_t_betula1f", "MAP_c_fern", "as_t_JuniperusC2s_EP1"];
 { RPP_var_forestry_typeBushes set[_forEachIndex, toLower _x]; } forEach RPP_var_forestry_typeBushes;
 RPP_var_forestry_typeTrees = [ "as_t_PopulusF2s_EP1", "MAP_t_larix3s", "MAP_t_carpinis2s", "MAP_t_picea2s", "MAP_t_pinusN2s", "MAP_t_pyrus2s" ];
 { RPP_var_forestry_typeTrees set[_forEachIndex, toLower _x]; } forEach RPP_var_forestry_typeTrees;
@@ -71,7 +72,7 @@ RPP_var_cuttingTree = false;
 */
 RPP_var_plantableSurfaceTypes = 
 [
-    "#cmmGrass1"
+    "#BRA_Ground"
 ];
  
 /* Number of times that the tree/bush will grow */
@@ -140,7 +141,8 @@ RPP_var_forestry_bushes =
 	["pumpkin_patch", [1,3, "Pumpkin"], [12], 18, 0.5, [300, 0,10], ["forestry", 180], "", "AinvPknlMstpSlayWrflDnon_medic"],
 	["cabbage_patch", [1,3, "Cabbage"], [12], 18, 0.5, [300, 0,10], ["forestry", 80], "", "AinvPknlMstpSlayWrflDnon_medic"],
 	["cocaine_seed", [1,3, "cocaine"], [12], 18, 0.5, [300, 0,10], ["forestry", 480], "", "AinvPknlMstpSlayWrflDnon_medic"],
-    ["mari_bush", [1,3, "mari"], [3], 20, 0.5, [300, 0,10], ["forestry", 440], "", "AinvPknlMstpSlayWrflDnon_medic"]
+    ["mari_bush", [1,3, "mari"], [3], 20, 0.5, [300, 0,10], ["forestry", 440], "", "AinvPknlMstpSlayWrflDnon_medic"],
+	["herion_bush", [1,3, "herion"], [3], 20, 0.5, [300, 0,10], ["forestry", 520], "", "AinvPknlMstpSlayWrflDnon_medic"]
 	
 ];
 

@@ -18,9 +18,37 @@ RPP_var_shops =
     [shop_carsedan, "car_sedan", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_carlada1, "Lada1_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 6, true, true],
     [shop_carlada2, "Lada2_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 6, true, true],
-    [shop_caroldb, "Volha_1_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_caroldw, "Volha_2_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-    
+    [shop_holden1, "Civcarwh", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+    [shop_holden2, "Civcarsl", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_holden3, "Civcarre", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_holden4, "Civcar", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_holden5, "Civcargr", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_holden6, "Civcarbu", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_holden7, "civcarbl", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_ford1, "FORD_MUSTANG_SHELBY_COBRA3", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_ford2, "FORD_MUSTANG_SHELBY_COBRA2", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+    [shop_ford3, "FORD_MUSTANG_SHELBY_COBRA", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_ford4, "FordFalconBlack", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_ford5, "FordFalconBlue", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_ford6, "FordFalconGreen", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_ford7, "FordFalcon", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_ford8, "FordFalconRed", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_ford9, "FordFalconSilver", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_ford10, "FordFalconWhite", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_nissan1, "NISSAN_SKYLINE_GT_R_Z3", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_nissan2, "NISSAN_SKYLINE_V_SPEC", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_nissan3, "NISSAN_350Z", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_nissan4, "NISSAN_SKYLINE_GT_R_Z2", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_nissan5, "NISSAN_SKYLINE_V_SPEC1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_nissan6, "NISSAN_370Z", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_nissan7, "NISSAN_GTR_SPECV3", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_nissan8, "NISSAN_GTR_SPECV", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_nissan9, "NISSAN_GTR_SPECV2", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_nissan10, "NISSAN_GTR_SPECV1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+
+	/* Work Cars */
+	[shop_taxi, "a2l_taxi", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	
 	/* Classic Cars */
 	[shop_monaco, "monaco", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
     [shop_roadrunner2, "roadrunner2", "", [0,0], [] call RPP_fnc_generateID, 0, true, true],
@@ -57,6 +85,13 @@ RPP_var_shops =
 	[shop_swat_suv, "SUV_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	[shop_cop_qin_black, "qin_evoix_black", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	[shop_cop_monaro_black, "Civcarsl", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_policefalcon, "Fordpatrolbasic", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_ucfalcon, "FordUC", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	
+	/* Emergency Service Vehicles */
+	[shop_firetruck, "a2l_kme", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_ambulance, "a2l_ambulance", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_cheif, "CL_chargerclEMT", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	
 	/* Police Item Shop */
 	[shop_police_map, "ItemMap", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
@@ -215,6 +250,7 @@ RPP_var_shops =
 	/* Mari Sell */
     [mari_sell, "mari", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
 	[cocaine_sell, "cocaine", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
+	[herion_sell, "herion", "", [0,0], [] call RPP_fnc_generateID, 0, true, false],
 	
 	 /* Resource shop */
     [shop_ironore, "IronOre", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
@@ -242,7 +278,8 @@ RPP_var_shops =
 
     /* Drug Equipment */
 	[cocaine_seeds, "cocaine_seed", "", [0,0], [] call RPP_fnc_generateID, 50, true, false],
-    [mari_seeds, "mari_seed", "", [0,0], [] call RPP_fnc_generateID, 50, true, false]
+    [mari_seeds, "mari_seed", "", [0,0], [] call RPP_fnc_generateID, 50, true, false],
+	[herion_seeds, "herion_seed", "", [0,0], [] call RPP_fnc_generateID, 50, true, false]
 ];
 
 RPP_fnc_addStock = 
