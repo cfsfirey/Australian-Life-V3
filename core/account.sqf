@@ -1,5 +1,3 @@
-//was here 2012
-
 RPP_fnc_acc_login = 
 {
     private ["_id", "_exists", "_password"];
