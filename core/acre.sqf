@@ -1,3 +1,4 @@
+//Twoods is a flaming homosexual
 ALR_acre_radios =
 {
 	_ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
