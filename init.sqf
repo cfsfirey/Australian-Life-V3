@@ -324,10 +324,10 @@ if (!__isServer) then
 
 if (RPP_Debug) then
 {
-	['Pickaxe', 1] call RPP_fnc_addInventoryItem;
-    ['money', 25000] call RPP_fnc_addInventoryItem;
+	['Pickaxe', 0] call RPP_fnc_addInventoryItem;
+    ['money', 0] call RPP_fnc_addInventoryItem;
     ['Phone', 1] call RPP_fnc_addInventoryItem;
-    ['MedicalBag', 1] call RPP_fnc_addInventoryItem;
+    ['MedicalBag', 0] call RPP_fnc_addInventoryItem;
 	
 };
 

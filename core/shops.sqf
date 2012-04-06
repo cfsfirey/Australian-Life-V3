@@ -179,14 +179,14 @@ RPP_var_shops =
     [shop_shop3_watch, "ItemWatch", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_shop3_radio, "ItemRadio", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_shop3_gps, "ItemGPS", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
-    [shop_shop3_lockpick, "Lockpick", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
+    //[shop_shop3_lockpick, "Lockpick", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
     [shop_shop3_crowbar, "Crowbar", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
     
     /* Boat shop */
     [shop_fishingboat, "Fishing_Boat", "", [0,0], [] call RPP_fnc_generateID, 2, true, false],
     [shop_smallboat1, "Smallboat_1", "", [0,0], [] call RPP_fnc_generateID, 3, true, false],
     [shop_smallboat2, "Smallboat_2", "", [0,0], [] call RPP_fnc_generateID, 4, true, false],
-    [shop_pbx, "Smallboat_2", "", [0,0], [] call RPP_fnc_generateID, 5, true, false],
+    [shop_pbx, "PBX", "", [0,0], [] call RPP_fnc_generateID, 5, true, false],
     
     /* Fishing shop */
     [shop_shop4_minnow, "Minnow", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
