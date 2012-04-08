@@ -113,7 +113,7 @@ class RPP_Dlg_Stats
             w = 0.18;
             h = 0.4;
             size = 0.0235;
-            text = "Aussie Life: Reloaded<br/><br/>www.AussieLifeReloaded.com";
+            text = "Australian Life<br/><br/>www.australianlife.net.au";
         };
 		
         class WeatherIcon : RPP_BackgroundFill

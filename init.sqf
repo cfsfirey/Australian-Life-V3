@@ -3,18 +3,17 @@ The Roleplay Project: Reloaded
 Copyright (C) 2011  Matthew Simms
 */
 
-serverCommand "#lock";
-RPP_Debug = true;
+RPP_Debug = false;
 RPP_Mission_Version = 0.6;
-RPP_Intro = false;
+RPP_Intro = true;
 RPP_QuickTest = false;
-RPP_Saving = false;
+RPP_Saving = true;
 RPP_isServer = ((isDedicated) && (isServer));
 RPP_AcreEnabled = true;
 
 #define __isServer ((isDedicated) && (isServer))
 
-//startLoadingScreen ["Initializing...", "RscDisplayStart"];
+startLoadingScreen ["Initializing...", "RscDisplayStart"];
 
 progressLoadingScreen 0.15;
 
@@ -27,20 +26,6 @@ if (RPP_Debug) then
 sleep 0.1;
 
 if (RPP_QuickTest) exitWith
-{
-   endLoadingScreen;
-   sleep 2;
-    //ems1 switchMove "AcinPknlMwlkSrasWrflbd";
-    //dummy switchMove "AinjPpneMstpSnonWrflDb_grab";
-    
-    //dummy attachTo[player, [-0.25,-0.5,0]];
-
-	/* Testing stuff */
-	//createDialog "ALR_Dlg_payTicket";
-
-   //player setDir (_playerDir - _dir);
-   
-};
 
 progressLoadingScreen 0.25;
 
@@ -163,8 +148,8 @@ waitUntil {scriptDone _script};
 _script = [] execVM "core\trading.sqf";
 waitUntil {scriptDone _script};
 
-//_script = [] execVM "core\account.sqf";
-//waitUntil {scriptDone _script};
+_script = [] execVM "core\account.sqf";
+waitUntil {scriptDone _script};
 
 _script = [] execVM "core\restrain.sqf";
 waitUntil {scriptDone _script};

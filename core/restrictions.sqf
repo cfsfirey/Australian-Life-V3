@@ -1,6 +1,6 @@
 RPP_var_restrictions =
 [
-    ["cop_base", 100, "(not(player call RPP_fnc_isCop))", "cop_exit", "You are not a cop and cannot enter this area."]
+    ["cop_base", 50, "(not(player call RPP_fnc_isCop))", "cop_exit", "You are not a cop and cannot enter this area."]
 ];
 
 RPP_fnc_restrictionLoop = 
