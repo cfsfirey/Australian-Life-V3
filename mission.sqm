@@ -106,7 +106,9 @@ class Mission
 		"ca_animals2_sheep",
 		"ca_animals2_cow",
 		"ca_animals2_wildboar",
-		"vilas_ctl_forces"
+		"vilas_ctl_forces",
+		"mackr",
+		"oldtruc2"
 	};
 	addOnsAuto[]=
 	{
@@ -202,6 +204,8 @@ class Mission
 		"jt_police",
 		"jt_uc_police",
 		"camp_armory_misc_laptop",
+		"mackr",
+		"oldtruc2",
 		"emita"
 	};
 	randomSeed=10754469;
@@ -3045,7 +3049,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1456;
+		items=1459;
 		class Item0
 		{
 			position[]={2569.8213,4.1295543,4685.356};
@@ -18777,6 +18781,33 @@ class Mission
 			skill=0.2;
 			text="shop_shop4_harpoon";
 			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2)];this setVectorUp [0, 0, 1];doStop this;";
+		};
+		class Item1456
+		{
+			position[]={1978.2991,4.1295543,3793.3298};
+			id=1531;
+			side="EMPTY";
+			vehicle="mackr";
+			skill=0.60000002;
+			text="shop_truck4";
+		};
+		class Item1457
+		{
+			position[]={1982.9473,4.1295543,3793.8025};
+			id=1532;
+			side="EMPTY";
+			vehicle="oldtruc2";
+			skill=0.60000002;
+			text="shop_truck5";
+		};
+		class Item1458
+		{
+			position[]={1986.4072,4.1295543,3793.5718};
+			id=1533;
+			side="EMPTY";
+			vehicle="oldtruc2a";
+			skill=0.60000002;
+			text="shop_truck6";
 		};
 	};
 	class Markers
