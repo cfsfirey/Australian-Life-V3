@@ -108,13 +108,15 @@ class Mission
 		"ca_animals2_wildboar",
 		"vilas_ctl_forces",
 		"mackr",
-		"oldtruc2"
+		"oldtruc2",
+		"ibr_civilian_patch"
 	};
 	addOnsAuto[]=
 	{
 		"cacharacters2",
 		"cl_police",
 		"KPFS_THW_characters",
+		"ibr_civilian_patch",
 		"vilas_ctl_forces",
 		"CAWheeled",
 		"caweapons_ammoboxes",
@@ -216,6 +218,7 @@ class Mission
 		year=2008;
 		month=2;
 		day=6;
+		hour=0;
 	};
 	class Groups
 	{
@@ -266,7 +269,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.1533,4.1295543,4590.897};
+					position[]={2136.3081,4.1295543,4590.7075};
 					azimut=813.2981;
 					id=6;
 					side="CIV";
@@ -742,7 +745,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2427.356,43.990417,4702.1963};
+					position[]={2425.6392,43.990562,4701.8237};
 					azimut=275.22299;
 					special="NONE";
 					id=198;
@@ -751,7 +754,7 @@ class Mission
 					leader=1;
 					skill=0.5;
 					text="mainbank";
-					init="this allowdamage false;";
+					init="this allowdamage false;this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +2.0]";
 				};
 			};
 		};
@@ -1271,7 +1274,7 @@ class Mission
 					azimut=536.591;
 					id=1460;
 					side="CIV";
-					vehicle="Doctor";
+					vehicle="Functionary1";
 					leader=1;
 					skill=0.60000002;
 					text="herion_sell";
@@ -1731,7 +1734,7 @@ class Mission
 					azimut=536.591;
 					id=1461;
 					side="CIV";
-					vehicle="Doctor";
+					vehicle="ibr_africaman1s";
 					leader=1;
 					skill=0.60000002;
 					text="mari_sell";
@@ -2191,7 +2194,7 @@ class Mission
 					azimut=536.591;
 					id=1462;
 					side="CIV";
-					vehicle="Doctor";
+					vehicle="Hooker4";
 					leader=1;
 					skill=0.60000002;
 					text="cocaine_sell";
@@ -3076,8 +3079,8 @@ class Mission
 		};
 		class Item2
 		{
-			position[]={1427.6217,4.1295543,4828.8179};
-			azimut=-179.03653;
+			position[]={1427.2905,4.1295543,4835.0859};
+			azimut=-179.69278;
 			id=2;
 			side="EMPTY";
 			vehicle="USBasicWeaponsBox";
@@ -3087,8 +3090,8 @@ class Mission
 		};
 		class Item3
 		{
-			position[]={1427.5953,4.1295543,4831.4077};
-			azimut=-179.03653;
+			position[]={1430.3319,4.1295543,4835.0186};
+			azimut=-179.69278;
 			id=3;
 			side="EMPTY";
 			vehicle="USBasicWeapons_EP1";
@@ -3240,8 +3243,8 @@ class Mission
 		};
 		class Item18
 		{
-			position[]={1434.0099,4.1295543,4831.0825};
-			azimut=-179.77298;
+			position[]={1441.3651,4.1295543,4834.9121};
+			azimut=-180.42923;
 			id=38;
 			side="EMPTY";
 			vehicle="USBasicWeaponsBox";
@@ -3251,8 +3254,8 @@ class Mission
 		};
 		class Item19
 		{
-			position[]={1433.7957,4.1295543,4828.6665};
-			azimut=-179.77299;
+			position[]={1436.8463,4.1295543,4834.9819};
+			azimut=-180.42926;
 			id=39;
 			side="EMPTY";
 			vehicle="USBasicWeaponsBox";
@@ -9220,7 +9223,7 @@ class Mission
 			vehicle="MAP_Concrete_Ramp";
 			lock="UNLOCKED";
 			skill=0.2;
-			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) -2.5]; this setVectorUp [0,0,1];";
+			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) -2.4]; this setVectorUp [0,0,1];";
 		};
 		class Item548
 		{
@@ -18963,15 +18966,17 @@ class Mission
 		};
 		class Item16
 		{
-			position[]={394.47861,80.356621,-191.29767};
+			position[]={1170.1943,4.1295543,4671.8413};
 			name="respawn_civilian";
 			type="Empty";
+			angle=-75.23307;
 		};
 		class Item17
 		{
-			position[]={441.9454,80.174179,-187.00861};
+			position[]={1170.0491,4.1295543,4675.6694};
 			name="respawn_west";
 			type="Empty";
+			angle=-75.23307;
 		};
 		class Item18
 		{
