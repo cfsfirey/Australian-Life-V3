@@ -5,8 +5,8 @@ Copyright (C) 2011  Matthew Simms
 
 RPP_var_time_updateClients = 60;
 RPP_var_time_timeChange = 120;
-RPP_var_time_increaseDay = 15;
-RPP_var_time_increaseNight = 30;
+RPP_var_time_increaseDay = 40;
+RPP_var_time_increaseNight = 15;
 
 RPP_fnc_timeLoop = 
 {
