@@ -203,13 +203,18 @@ RPP_var_goods =
     ["ATV_US_EP1", ["VEHICLE", "CAR"], ["ATV", "No Desc"], [800, 400], 40, "core\items\noUse.sqf", 50, true, [1, [ ["IronBar", 2],["Tyre", 4], ["Rubber", 8], ["Copper", 3], ["Leather" , 1], ["ElecComp", 2]]], false],
     
     //Trucks
-    ["Kamaz", ["VEHICLE", "CAR"], ["Kamaz", "No Desc"], [38080, 20000], 1400, "core\items\noUse.sqf", 800, true, [1, [ ["IronBar", 50],["Tyre", 6], ["Rubber", 50], ["Copper", 30], ["Vinyl" , 12], ["ElecComp",6], ["wood", 20]]], false],
+    ["cl_fuel_mackr", ["VEHICLE", "CAR"], ["Fuel Tanker", "No Desc"], [30080, 20000], 1400, "core\items\noUse.sqf", 800, true, [1, [ ["IronBar", 50],["Tyre", 6], ["Rubber", 50], ["Copper", 30], ["Vinyl" , 12], ["ElecComp",6], ["wood", 20]]], false],
     ["KamazOpen", ["VEHICLE", "CAR"], ["Kamaz (Open)", "No Desc"], [38080, 20000], 1400, "core\items\noUse.sqf", 800, true, [1, [ ["IronBar", 50],["Tyre", 6], ["Rubber", 50], ["Copper", 30], ["Vinyl" , 12], ["ElecComp",6], ["wood", 20]]], false],
     ["UralCivil", ["VEHICLE", "CAR"], ["Ural Civil", "No Desc"], [34880, 18500], 800, "core\items\noUse.sqf", 600, true, [1, [ ["IronBar", 40],["Tyre", 6], ["Rubber", 50], ["Copper", 30], ["Vinyl" , 12], ["ElecComp",6], ["wood", 20]]], false],
     ["UralCivil2", ["VEHICLE", "CAR"], ["Ural Civil 2", "No Desc"], [34880, 18500], 800, "core\items\noUse.sqf", 600, true, [1, [ ["IronBar", 40],["Tyre", 6], ["Rubber", 50], ["Copper", 30], ["Vinyl" , 12], ["ElecComp",6], ["wood", 20]]], false],
     ["UralOpen_INS", ["VEHICLE", "CAR"], ["Ural Camo", "No Desc"], [34880, 18500], 800, "core\items\noUse.sqf", 600, true, [1, [ ["IronBar", 40],["Tyre", 6], ["Rubber", 50], ["Copper", 30], ["Vinyl" , 12], ["ElecComp",6], ["wood", 20]]], false],
     ["MTVR", ["VEHICLE", "CAR"], ["MTVR", "No Desc"], [33380, 17750], 600, "core\items\noUse.sqf", 500, true, [1, [ ["IronBar", 30],["Tyre", 6], ["Rubber", 50], ["Copper", 30], ["Leather" , 12], ["ElecComp",7], ["wood", 20]]], false],
-    ["V3S_Salvage_TK_GUE_EP1", ["VEHICLE", "CAR"], ["V3S", "No Desc"], [15000, 10000], 500, "core\items\noUse.sqf", 400, true, [1, [ ["IronBar", 25],["Tyre", 6], ["Rubber", 50], ["Copper", 30], ["Vinyl" , 12], ["ElecComp",6], ["wood", 20]]], false],
+    ["mackr", ["VEHICLE", "CAR"], ["Mack Type R", "No Desc"], [15000, 20000], 500, "core\items\noUse.sqf", 400, true, [1, [ ["IronBar", 25],["Tyre", 6], ["Rubber", 50], ["Copper", 30], ["Vinyl" , 12], ["ElecComp",6], ["wood", 20]]], false],
+    ["cl_flat_mackr", ["VEHICLE", "CAR"], ["Mack Tipper Truck", "No Desc"], [30000, 20000], 500, "core\items\noUse.sqf", 400, true, [1, [ ["IronBar", 25],["Tyre", 6], ["Rubber", 50], ["Copper", 30], ["Vinyl" , 12], ["ElecComp",6], ["wood", 20]]], false],
+    ["V3S_Salvage_TK_GUE_EP1", ["VEHICLE", "CAR"], ["V3S Salvage", "No Desc"], [25000, 20000], 500, "core\items\noUse.sqf", 400, true, [1, [ ["IronBar", 25],["Tyre", 6], ["Rubber", 50], ["Copper", 30], ["Vinyl" , 12], ["ElecComp",6], ["wood", 20]]], false],
+    ["cl_del_mackr", ["VEHICLE", "CAR"], ["Delivery Truck", "No Desc"], [30000, 20000], 500, "core\items\noUse.sqf", 400, true, [1, [ ["IronBar", 25],["Tyre", 6], ["Rubber", 50], ["Copper", 30], ["Vinyl" , 12], ["ElecComp",6], ["wood", 20]]], false],
+    ["cl_flatbed_mackr", ["VEHICLE", "CAR"], ["Flatbed Truck", "No Desc"], [30000, 20000], 500, "core\items\noUse.sqf", 400, true, [1, [ ["IronBar", 25],["Tyre", 6], ["Rubber", 50], ["Copper", 30], ["Vinyl" , 12], ["ElecComp",6], ["wood", 20]]], false],
+
     ["Tractor", ["VEHICLE", "CAR"], ["Tractor", "No Desc"], [8000, 4000], 250, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 20],["Tyre", 4], ["Rubber", 20], ["Copper",15], ["Leather" , 4], ["ElecComp",4]]], false],
     
 	//Weapons

@@ -143,11 +143,12 @@ RPP_var_shops =
     [shop_truck1, "UralCivil", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
     [shop_truck2, "UralCivil2", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
     [shop_truck3, "V3S_Salvage_TK_GUE_EP1", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
-	[shop_truck4, "Kamaz", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
-	[shop_truck5, "KamazOpen", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
-	[shop_truck6, "MTVR", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
-	[shop_truck7, "UralOpen_INS", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
-
+	[shop_truck4, "mackr", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
+	[shop_truck5, "cl_flat_mackr", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
+	[shop_truck6, "cl_del_mackr", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
+	[shop_truck7, "cl_flatbed_mackr", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
+	[shop_truck8, "cl_fuel_mackr", "", [0,0], [] call RPP_fnc_generateID, 1, true, true],
+	
     /* Item store */
     [shop_donut, "Donut", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
     [shop_soup, "Soup", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],

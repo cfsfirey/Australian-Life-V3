@@ -109,7 +109,8 @@ class Mission
 		"vilas_ctl_forces",
 		"mackr",
 		"oldtruc2",
-		"ibr_civilian_patch"
+		"ibr_civilian_patch",
+		"mackr2rig"
 	};
 	addOnsAuto[]=
 	{
@@ -207,7 +208,7 @@ class Mission
 		"jt_uc_police",
 		"camp_armory_misc_laptop",
 		"mackr",
-		"oldtruc2",
+		"mackr2rig",
 		"emita"
 	};
 	randomSeed=10754469;
@@ -222,7 +223,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=75;
+		items=76;
 		class Item0
 		{
 			side="LOGIC";
@@ -868,7 +869,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={1955.2715,4.1295543,3795.0493};
+					position[]={1968.76,4.1295543,3794.5217};
 					azimut=9.3900261;
 					special="NONE";
 					id=295;
@@ -3049,10 +3050,30 @@ class Mission
 				};
 			};
 		};
+		class Item75
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2151.884,43.989426,4634.2329};
+					azimut=180;
+					id=1534;
+					side="CIV";
+					vehicle="RU_Secretary1";
+					leader=1;
+					skill=0.60000002;
+					text="centrelink_office";
+					init="this allowdamage false;this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +2.0]";
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
-		items=1459;
+		items=1461;
 		class Item0
 		{
 			position[]={2569.8213,4.1295543,4685.356};
@@ -6947,8 +6968,8 @@ class Mission
 		};
 		class Item340
 		{
-			position[]={1964.1069,4.1295543,3793.6445};
-			azimut=-1.16405;
+			position[]={1977.5968,4.1295543,3793.2239};
+			azimut=0.17145687;
 			id=375;
 			side="EMPTY";
 			vehicle="UralCivil";
@@ -6959,8 +6980,8 @@ class Mission
 		};
 		class Item341
 		{
-			position[]={1968.5995,4.1295543,3793.6384};
-			azimut=-1.16405;
+			position[]={1982.088,4.1295543,3793.113};
+			azimut=0.17145687;
 			id=376;
 			side="EMPTY";
 			vehicle="UralCivil2";
@@ -6971,8 +6992,8 @@ class Mission
 		};
 		class Item342
 		{
-			position[]={1973.3802,4.1295543,3793.6433};
-			azimut=-0.85731602;
+			position[]={1986.8676,4.1295543,3793.0063};
+			azimut=0.47819084;
 			id=377;
 			side="EMPTY";
 			vehicle="V3S_Civ";
@@ -9544,7 +9565,7 @@ class Mission
 		};
 		class Item575
 		{
-			position[]={1955.3804,4.1295543,3794.6733};
+			position[]={1968.8689,4.1295543,3794.1458};
 			azimut=-179.54253;
 			id=618;
 			side="EMPTY";
@@ -18787,7 +18808,7 @@ class Mission
 		};
 		class Item1456
 		{
-			position[]={1978.2991,4.1295543,3793.3298};
+			position[]={1991.7876,4.1295543,3792.8022};
 			id=1531;
 			side="EMPTY";
 			vehicle="mackr";
@@ -18796,26 +18817,44 @@ class Mission
 		};
 		class Item1457
 		{
-			position[]={1982.9473,4.1295543,3793.8025};
+			position[]={1949.5244,4.1295543,3792.8579};
 			id=1532;
 			side="EMPTY";
-			vehicle="oldtruc2";
+			vehicle="cl_flat_mackr";
 			skill=0.60000002;
 			text="shop_truck5";
 		};
 		class Item1458
 		{
-			position[]={1986.4072,4.1295543,3793.5718};
+			position[]={1953.4183,4.1295543,3792.9363};
 			id=1533;
 			side="EMPTY";
-			vehicle="oldtruc2a";
+			vehicle="cl_del_mackr";
 			skill=0.60000002;
 			text="shop_truck6";
+		};
+		class Item1459
+		{
+			position[]={1956.8923,4.1295543,3792.9307};
+			id=1535;
+			side="EMPTY";
+			vehicle="cl_flatbed_mackr";
+			skill=0.60000002;
+			text="shop_truck7";
+		};
+		class Item1460
+		{
+			position[]={1960.8177,4.1295543,3792.9055};
+			id=1536;
+			side="EMPTY";
+			vehicle="cl_fuel_mackr";
+			skill=0.60000002;
+			text="shop_truck8";
 		};
 	};
 	class Markers
 	{
-		items=114;
+		items=115;
 		class Item0
 		{
 			position[]={1886.376,4.1295543,4219.2949};
@@ -19052,7 +19091,7 @@ class Mission
 		};
 		class Item25
 		{
-			position[]={1956.2479,4.1295543,3793.9507};
+			position[]={1969.7365,4.1295543,3793.4231};
 			name="truck_dealer";
 			text="Truck Shop";
 			type="CLMARKER30";
@@ -19854,6 +19893,16 @@ class Mission
 			text="Shops";
 			type="mil_flag";
 			colorName="ColorBlue";
+		};
+		class Item114
+		{
+			position[]={2149.0007,43.988274,4633.4927};
+			name="centre";
+			text="Centrelink Office";
+			type="Faction_Aus";
+			colorName="ColorGreen";
+			a=0.64999998;
+			b=0.64999998;
 		};
 	};
 };
