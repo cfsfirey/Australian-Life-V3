@@ -110,7 +110,11 @@ class Mission
 		"mackr",
 		"oldtruc2",
 		"ibr_civilian_patch",
-		"mackr2rig"
+		"mackr2rig",
+		"cl_torq",
+		"PORSCHE_911_GT3_RS",
+		"PORSCHE_911_TURBO",
+		"holden_kingswood"
 	};
 	addOnsAuto[]=
 	{
@@ -209,6 +213,10 @@ class Mission
 		"camp_armory_misc_laptop",
 		"mackr",
 		"mackr2rig",
+		"cl_torq",
+		"PORSCHE_911_GT3_RS",
+		"PORSCHE_911_TURBO",
+		"holden_kingswood",
 		"emita"
 	};
 	randomSeed=10754469;
@@ -3073,7 +3081,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1461;
+		items=1470;
 		class Item0
 		{
 			position[]={2569.8213,4.1295543,4685.356};
@@ -18812,6 +18820,7 @@ class Mission
 			id=1531;
 			side="EMPTY";
 			vehicle="mackr";
+			lock="LOCKED";
 			skill=0.60000002;
 			text="shop_truck4";
 		};
@@ -18821,6 +18830,7 @@ class Mission
 			id=1532;
 			side="EMPTY";
 			vehicle="cl_flat_mackr";
+			lock="LOCKED";
 			skill=0.60000002;
 			text="shop_truck5";
 		};
@@ -18830,6 +18840,7 @@ class Mission
 			id=1533;
 			side="EMPTY";
 			vehicle="cl_del_mackr";
+			lock="LOCKED";
 			skill=0.60000002;
 			text="shop_truck6";
 		};
@@ -18839,6 +18850,7 @@ class Mission
 			id=1535;
 			side="EMPTY";
 			vehicle="cl_flatbed_mackr";
+			lock="LOCKED";
 			skill=0.60000002;
 			text="shop_truck7";
 		};
@@ -18848,13 +18860,103 @@ class Mission
 			id=1536;
 			side="EMPTY";
 			vehicle="cl_fuel_mackr";
+			lock="LOCKED";
 			skill=0.60000002;
 			text="shop_truck8";
+		};
+		class Item1461
+		{
+			position[]={1253.6438,4.1295543,4775.3384};
+			id=1537;
+			side="EMPTY";
+			vehicle="cl_bmwm3b";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_sport5";
+		};
+		class Item1462
+		{
+			position[]={1258.0491,4.1295543,4775.2808};
+			id=1538;
+			side="EMPTY";
+			vehicle="cl_charger";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_sport6";
+		};
+		class Item1463
+		{
+			position[]={1262.4463,4.1295543,4775.3032};
+			id=1539;
+			side="EMPTY";
+			vehicle="CL_LAMBORGHINI_GT3";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_sport7";
+		};
+		class Item1464
+		{
+			position[]={1266.853,4.1295543,4775.2793};
+			id=1540;
+			side="EMPTY";
+			vehicle="Convertible_MLOD";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_sport8";
+		};
+		class Item1465
+		{
+			position[]={1249.0306,4.1295543,4775.4448};
+			id=1541;
+			side="EMPTY";
+			vehicle="CL_PORSCHE_997";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_sport4";
+		};
+		class Item1466
+		{
+			position[]={1244.6251,4.1295543,4775.5146};
+			id=1542;
+			side="EMPTY";
+			vehicle="CL_S_COBRA";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_sport3";
+		};
+		class Item1467
+		{
+			position[]={1240.3221,4.1295543,4775.5176};
+			id=1543;
+			side="EMPTY";
+			vehicle="PORSCHE_911_GT3_RS";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_sport2";
+		};
+		class Item1468
+		{
+			position[]={1236.2289,4.1295543,4775.52};
+			id=1544;
+			side="EMPTY";
+			vehicle="PORSCHE_911_TURBO";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_sport1";
+		};
+		class Item1469
+		{
+			position[]={1807.9873,4.1295543,4205.3721};
+			id=1545;
+			side="EMPTY";
+			vehicle="Holden_Kingswood";
+			lock="LOCKED";
+			skill=0.60000002;
 		};
 	};
 	class Markers
 	{
-		items=115;
+		items=116;
 		class Item0
 		{
 			position[]={1886.376,4.1295543,4219.2949};
@@ -19094,8 +19196,8 @@ class Mission
 			position[]={1969.7365,4.1295543,3793.4231};
 			name="truck_dealer";
 			text="Truck Shop";
-			type="CLMARKER30";
-			colorName="ColorWhite";
+			type="mil_flag";
+			colorName="ColorBlue";
 			a=0.64999998;
 			b=0.64999998;
 		};
@@ -19901,6 +20003,16 @@ class Mission
 			text="Centrelink Office";
 			type="Faction_Aus";
 			colorName="ColorGreen";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item115
+		{
+			position[]={1250.8899,4.1295543,4776.0728};
+			name="sport";
+			text="Sport Car Shop";
+			type="mil_flag";
+			colorName="ColorBlue";
 			a=0.64999998;
 			b=0.64999998;
 		};
