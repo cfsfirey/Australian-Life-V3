@@ -8,9 +8,9 @@ if (isServer) then /* Setup server variables */
 
 
 };
-RPP_var_emergency = 
+RPP_var_emt = 
 [
-    "FireFighter1", "FireFighter2", "Paramedic1", "Paramedic2"
+    "Paramedic1", "Paramedic2", "FireFighter1", "FireFighter2"
 ];
 
 RPP_var_civilians = 
@@ -50,6 +50,7 @@ RPP_fnc_getNumberCops =
 RPP_var_players = [];
 { RPP_var_players set[(count RPP_var_players), _x]; } forEach RPP_var_civilians;
 { RPP_var_players set[(count RPP_var_players), _x]; } forEach RPP_var_cops;
+{ RPP_var_players set[(count RPP_var_players), _x]; } forEach RPP_var_emt;
 
 RPP_fnc_playerActions = 
 {       
@@ -61,7 +62,7 @@ RPP_fnc_playerActions =
             _unit addAction[format["Stabilize %1", name _unit], "core\actions\useAction.sqf", ["medical_stabilize", _unit], 1, false, true, "", format['((!(%1 getVariable "stabilized")) && (alive %1) && !(RPP_var_medical_isReviving))', _unit]];
             _unit addAction[format["Drag %1", name _unit], "core\actions\useAction.sqf", ["medical_carry", _unit], 1, false, true, "", format['((!(%1 getVariable "isAlive")) && (alive %1) && !(RPP_var_medical_isReviving))', _unit]];
         };
-    } forEach RPP_var_players;
+    } forEach RPP_var_emt;
         
     while {true} do
     {
@@ -76,7 +77,7 @@ RPP_fnc_playerActions =
                // _id call RPP_fnc_disable3DText;
                // [_id, _text, _unit, 0.8, 5, true] spawn RPP_fnc_create3DText;
             };
-        } forEach RPP_var_players;
+        } forEach RPP_var_emt;
         
         sleep 5;
     };
@@ -105,6 +106,15 @@ RPP_fnc_getOnlinePlayers =
         };
     } forEach RPP_var_cops;
 
+	{
+        _player = call compile _x;
+        
+        if (alive _player) then
+        {
+            _arr set[(count _arr), name _player];
+        };
+    } forEach RPP_var_emt;
+	
     _arr
 };
 
@@ -132,6 +142,10 @@ RPP_fnc_isCiv =
 RPP_fnc_isCop = 
 {
     [_this, RPP_var_cops] call RPP_fnc_objIsType;
+};
+RPP_fnc_isEMS = 
+{
+    [_this, RPP_var_emt] call RPP_fnc_objIsType;
 };
 
 RPP_var_allowedNames = [];

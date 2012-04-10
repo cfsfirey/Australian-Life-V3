@@ -3,7 +3,7 @@ The Roleplay Project: Reloaded
 Copyright (C) 2011  Matthew Simms
 */
 
-RPP_Debug = true;
+RPP_Debug = TRUE;
 RPP_Mission_Version = 0.6;
 RPP_Intro = true;
 RPP_QuickTest = false;

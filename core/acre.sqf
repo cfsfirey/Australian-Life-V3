@@ -2,7 +2,7 @@ ALR_acre_radios =
 {
 	_ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
 	
-	if (side player==west) then 
+	if (side player==west or side player==east) then 
 	{
 		player addweapon "ACRE_PRC119";
 		{
@@ -10,7 +10,7 @@ ALR_acre_radios =
 			["ACRE_PRC119", [80.000, 80.025, 80.050, 80.075, 80.100, 80.125] ] call acre_api_fnc_setDefaultChannels;
 			["ACRE_PRC119", [50000, 50000] ] call acre_api_fnc_setDefaultPowers;
 		} forEach _ALR_var_acre_radio;
-	} 
+	}
 	else
 	{
 		player addweapon "ACRE_PRC148";

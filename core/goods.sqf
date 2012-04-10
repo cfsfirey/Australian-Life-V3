@@ -153,6 +153,16 @@ RPP_var_goods =
     ["NISSAN_GTR_SPECV1", ["VEHICLE", "CAR"], ["Nissan Skyline V Spec.", "No Desc"], [26000, 11800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
     ["a2l_taxi", ["VEHICLE", "CAR"], ["Taxi Cab.", "No Desc"], [1560, 6800], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
 
+	/*Sports Cars */
+	["PORSCHE_911_TURBO", ["VEHICLE", "CAR"], ["Porsche 911 Turbo", "No Desc"], [263000, 100000], 120, "core\items\noUse.sqf", 120, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["PORSCHE_911_GT3_RS", ["VEHICLE", "CAR"], ["Porsche 911 Turbo GT3 RS", "No Desc"], [130000, 110000], 120, "core\items\noUse.sqf", 100, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["CL_S_COBRA", ["VEHICLE", "CAR"], ["Shelby Cobra", "No Desc"], [200000, 80000], 120, "core\items\noUse.sqf", 100, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["CL_PORSCHE_997", ["VEHICLE", "CAR"], ["Porsche 997", "No Desc"], [210000, 90000], 120, "core\items\noUse.sqf", 100, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["cl_bmwm3b", ["VEHICLE", "CAR"], ["BMW M3", "No Desc"], [145000, 60000], 130, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 7]]], false],
+    ["cl_charger", ["VEHICLE", "CAR"], ["Charger", "No Desc"], [100000, 20000], 100, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 7]]], false],
+    ["CL_LAMBORGHINI_GT3", ["VEHICLE", "CAR"], ["Lamborghini GT3", "Green"], [399000, 150000], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+    ["Convertible_MLOD", ["VEHICLE", "CAR"], ["Convertable", "No Desc"], [130000, 100000], 50, "core\items\noUse.sqf", 80, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
+	
     /* Classic Cars */
     ["monaco", ["VEHICLE", "CAR"], ["1968 Dodge Monaco", "No Desc"], [22600, 11800], 120, "core\items\noUse.sqf", 120, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],
     ["roadrunner2", ["VEHICLE", "CAR"], ["1969 Road Runner", "Yellow"], [26000, 11800], 120, "core\items\noUse.sqf", 100, true, [1, [ ["IronBar", 22],["Tyre", 4], ["Rubber", 20], ["Copper", 18], ["Leather" , 8], ["ElecComp", 6]]], false],

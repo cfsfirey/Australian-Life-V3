@@ -35,6 +35,18 @@ RPP_var_shops =
 	[shop_ford8, "FordFalconRed", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
 	[shop_ford9, "FordFalconSilver", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
 	[shop_ford10, "FordFalconWhite", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	
+	/* Sports Cars */
+	[shop_sport1, "PORSCHE_911_TURBO", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_sport2, "PORSCHE_911_GT3_RS", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_sport3, "CL_S_COBRA", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_sport4, "CL_PORSCHE_997", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_sport5, "cl_bmwm3b", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_sport6, "cl_charger", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_sport7, "CL_LAMBORGHINI_GT3", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_sport8, "Convertible_MLOD", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	
+	/* Nissan Shop */
 	[shop_nissan1, "NISSAN_SKYLINE_GT_R_Z3", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
 	[shop_nissan2, "NISSAN_SKYLINE_V_SPEC", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
 	[shop_nissan3, "NISSAN_350Z", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
