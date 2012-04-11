@@ -22,7 +22,7 @@ RPP_fnc_openStatsMenu =
 
 RPP_var_admins = 
 [
-    "CfsFireFighter", "", "", "", "", "", ""
+    "CfsFireFighter", "Daniel", "The Makaan", "B.Holster", "Grimm", "Jan Templar", "Matt"
 ];
 
 RPP_fnc_loadStatsMenu = 

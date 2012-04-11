@@ -124,7 +124,7 @@ RPP_fnc_respawn =
     
     _spawn = "";
     
-    if (player call RPP_fnc_isCiv) then
+    if (player call RPP_fnc_isCiv or player call RPP_fnc_isEMS) then
     {
         if (RPP_var_isArrested) then
         {

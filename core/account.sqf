@@ -274,7 +274,7 @@ RPP_fnc_acc_start =
     showCinemaBorder false;
 	endLoadingScreen;
     sleep 2;
-    cutText ["Welcome to Aussie Life: Reloaded!\nPlease wait while the server finishes loading.\nIt is expected to take a while, so please be patient.", "PLAIN DOWN", 25];
+    cutText ["Welcome to Australian Life!\nPlease wait while the server finishes loading.\nIt is expected to take a while, so please be patient.", "PLAIN DOWN", 25];
     enableEnvironment false;
     waitUntil {server getVariable ["loaded",false]};
     enableEnvironment true;
