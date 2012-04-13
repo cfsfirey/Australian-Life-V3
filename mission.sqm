@@ -3080,7 +3080,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1470;
+		items=1479;
 		class Item0
 		{
 			position[]={2569.8213,4.1295543,4685.356};
@@ -13800,7 +13800,7 @@ class Mission
 		};
 		class Item993
 		{
-			position[]={2476.3311,6.5,2477.8906};
+			position[]={2476.7571,6.5,2477.877};
 			azimut=-3.3805201;
 			special="NONE";
 			id=1040;
@@ -18952,10 +18952,103 @@ class Mission
 			lock="LOCKED";
 			skill=0.60000002;
 		};
+		class Item1470
+		{
+			position[]={1183.6935,4.1295543,4690.3086};
+			azimut=89.891403;
+			id=1546;
+			side="EMPTY";
+			vehicle="Misc_palletsfoiled_heap";
+			skill=0.60000002;
+			text="ems_spawn_local";
+		};
+		class Item1471
+		{
+			position[]={1183.7892,4.1295543,4682.2261};
+			azimut=89.891403;
+			id=1547;
+			side="EMPTY";
+			vehicle="Misc_palletsfoiled_heap";
+			skill=0.60000002;
+			text="ems_spawn_public";
+		};
+		class Item1472
+		{
+			position[]={2221.7781,4.3580456,5070.4951};
+			azimut=177.832;
+			id=1548;
+			side="EMPTY";
+			vehicle="Misc_palletsfoiled_heap";
+			skill=0.60000002;
+			text="boatpri_storage1";
+		};
+		class Item1473
+		{
+			position[]={2226.5046,4.3580456,5070.5605};
+			azimut=177.832;
+			id=1549;
+			side="EMPTY";
+			vehicle="Misc_palletsfoiled_heap";
+			skill=0.60000002;
+			text="boatpub_storage1";
+		};
+		class Item1474
+		{
+			position[]={1901.6869,4.1295543,4223.8853};
+			azimut=270;
+			id=1550;
+			side="EMPTY";
+			vehicle="du_atm";
+			skill=0.60000002;
+			text="nanchukATM2";
+		};
+		class Item1475
+		{
+			position[]={2044.8097,4.1295543,932.74518};
+			azimut=-542.6424;
+			id=1551;
+			side="EMPTY";
+			vehicle="du_atm";
+			skill=0.60000002;
+			text="jailATM_1";
+		};
+		class Item1476
+		{
+			position[]={1993.0699,12,3193.3901};
+			azimut=240.49001;
+			id=1552;
+			side="EMPTY";
+			vehicle="Misc_palletsfoiled_heap";
+			skill=0.60000002;
+			text="airpri_storage1";
+		};
+		class Item1477
+		{
+			position[]={1995.299,12,3189.2212};
+			azimut=240.49001;
+			id=1553;
+			side="EMPTY";
+			vehicle="Misc_palletsfoiled_heap";
+			skill=0.60000002;
+			text="airpub_storage1";
+		};
+		class Item1478
+		{
+			position[]={3026.8582,4.1295543,4491.1104};
+			azimut=-164.85001;
+			special="NONE";
+			id=1554;
+			side="EMPTY";
+			vehicle="Land_transport_kiosk_EP1";
+			lock="UNLOCKED";
+			skill=0.2;
+			text="shop_concrete";
+			init="doStop this;";
+		};
 	};
 	class Markers
 	{
-		items=116;
+		items=121;
 		class Item0
 		{
 			position[]={1886.376,4.1295543,4219.2949};
@@ -19922,7 +20015,7 @@ class Mission
 		};
 		class Item105
 		{
-			position[]={2129.9028,4.1295543,4444.395};
+			position[]={2117.0793,4.1295543,4444.3203};
 			name="storage_area_1";
 			text="Storage";
 			type="mil_flag";
@@ -20012,6 +20105,56 @@ class Mission
 			text="Sport Car Shop";
 			type="mil_flag";
 			colorName="ColorBlue";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item116
+		{
+			position[]={1183.8872,4.1295543,4686.3677};
+			name="storage_area_1_1";
+			text="Storage";
+			type="mil_flag";
+			colorName="ColorBlue";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item117
+		{
+			position[]={2223.3538,4.3580456,5071.0903};
+			name="storage_area_2";
+			text="Boating Storage";
+			type="mil_flag";
+			colorName="ColorOrange";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item118
+		{
+			position[]={1899.9532,4.1295543,4223.2593};
+			name="MainBank_1_2_1";
+			text="ATM";
+			type="mil_flag";
+			colorName="ColorGreen";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item119
+		{
+			position[]={2044.9159,7.7493534,932.45709};
+			name="MainBank_1_4";
+			text="ATM";
+			type="mil_flag";
+			colorName="ColorGreen";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item120
+		{
+			position[]={1994.3223,12,3192.2644};
+			name="storage_area_3";
+			text="Aircraft Storage";
+			type="mil_flag";
+			colorName="ColorOrange";
 			a=0.64999998;
 			b=0.64999998;
 		};

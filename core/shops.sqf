@@ -286,6 +286,7 @@ RPP_var_shops =
 	[shop_tyre, "Tyre", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_leather, "Leather", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_vinyl, "Vinyl", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
+	[shop_concrete, "Concrete", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_shop2_plank, "Plank", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_shop2_beam, "Beam", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 

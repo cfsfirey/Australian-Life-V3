@@ -5,16 +5,22 @@ Copyright (C) 2011  Matthew Simms
 
 RPP_var_storages = 
 [
-    [local_storage1, "Central Local Storage", 0, false],
+    [local_storage1, "Central Private Storage", 0, false],
     [public_storage1, "Central Public Storage", 10000, true],
+    [airpri_storage1, "Aircraft Private Storage", 0, false],
+    [airpub_storage1, "Aircraft Public Storage", 10000, true],
+    [boatpri_storage1, "Boat: Private Storage", 0, false],
+    [boatpub_storage1, "Boat Public Storage", 10000, true],
     [item_factory_storage, "Item Factory Storage", 0, false],
 	[car_factory_storage, "Car Factory Storage", 0, false],
 	[bike_factory_storage, "Bike Factory Storage", 0, false],
 	[manufacturing_plant_storage, "Manufacturing Plant Storage", 0, false],
 	[lost_property_lot, "Lost Property Lot", 0, true],
 	[air_factory_storage, "Air Factory Storage", 0, false],
-	[cop_spawn_local, "Police: Local Storage", 0, false],
+	[cop_spawn_local, "Police: Private Storage", 0, false],
 	[cop_spawn_public, "Police: Public Storage", 10000, true],
+	[ems_spawn_local, "EMS: Private Storage", 0, false],
+	[ems_spawn_public, "EMS: Public Storage", 10000, true],
 	[heavy_car_factory_storage, "Heavy Storage", 0, false]
 ];
 

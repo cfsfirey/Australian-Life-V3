@@ -310,7 +310,7 @@ RPP_var_goods =
 	["Tempered Glass", ["ITEM", "RESOURCE"], ["Tempered Glass", "A toughened glass pane for use in the automotive and housing industry."], [60,40], 1, "core\items\noUse.sqf", 0, true, [1, [["Glass", 2]]], false],
 	["Windshield", ["ITEM", "RESOURCE"], ["Windshield", "A special wide pane of glass for use on vehicles"], [60,40], 4, "core\items\noUse.sqf", 0, true, [1, [["Glass", 4]]], false],
 	["Aggrigate", ["ITEM", "RESOURCE"], ["Aggrigate", "Crushed up stone, used in the creation of concrete"], [20,14], 1, "core\items\noUse.sqf", 0, true, [1, [["Stone", 1]]], false],
-	["Concrete", ["ITEM", "RESOURCE"], ["Concrete", "Used in numerous applications, this tough and universal material is in almost anything that does not move."], [500,400], 10, "core\items\noUse.sqf", 0, true, [1, [["Aggrigate", 2], ["Sand", 4], ["High_bottleWater", 5]]], false],
+	["Concrete", ["ITEM", "RESOURCE"], ["Concrete", "Used in numerous applications, this tough and universal material is in almost anything that does not move."], [900,800], 10, "core\items\noUse.sqf", 0, true, [1, [["Aggrigate", 2], ["Sand", 4], ["High_bottleWater", 5]]], false],
 	["Beam", ["ITEM", "RESOURCE"], ["Beam", "No Desc"], [380,190], 3, "core\items\noUse.sqf", 0, true, [1, [ ["wood", 4]]], false]
 	
 

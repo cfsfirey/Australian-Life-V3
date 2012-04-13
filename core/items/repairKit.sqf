@@ -83,7 +83,7 @@ while {_counter <= _repairTime} do
     titleText [format["Repairing... time remaining: %1", (_repairTime - _counter)], "PLAIN"];
 
     sleep 2;
-    _repairVcl say3D "SndRepair";
+    _repairVcl say3D "Snd/Repair.ogg";
     _counter = _counter + 2;
 };
 
