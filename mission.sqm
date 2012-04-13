@@ -114,15 +114,22 @@ class Mission
 		"cl_torq",
 		"PORSCHE_911_GT3_RS",
 		"PORSCHE_911_TURBO",
-		"holden_kingswood"
+		"holden_kingswood",
+		"cacharacters_e",
+		"VIL_sira_Police",
+		"ibr_police"
 	};
 	addOnsAuto[]=
 	{
+		"cacharacters_e",
 		"cacharacters2",
+		"ibr_civilian_patch",
 		"cl_police",
 		"KPFS_THW_characters",
-		"ibr_civilian_patch",
+		"du_characters",
 		"vilas_ctl_forces",
+		"VIL_sira_Police",
+		"ibr_police",
 		"CAWheeled",
 		"caweapons_ammoboxes",
 		"caweapons_e_ammoboxes",
@@ -257,11 +264,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.0227,4.1295543,4603.3555};
-					azimut=445.28687;
+					position[]={2136.4956,4.1295543,4589.5005};
+					azimut=445.28699;
 					id=5;
 					side="CIV";
-					vehicle="Citizen2";
+					vehicle="Pilot_EP1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -277,11 +284,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.3081,4.1295543,4590.7075};
-					azimut=813.2981;
+					position[]={2136.4656,4.1295543,4590.7075};
+					azimut=813.29797;
 					id=6;
 					side="CIV";
-					vehicle="Citizen1";
+					vehicle="Rocker1";
 					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
@@ -298,11 +305,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.031,4.1295543,4604.689};
-					azimut=445.28687;
+					position[]={2136.4248,4.1295543,4592.1221};
+					azimut=445.28699;
 					id=7;
 					side="CIV";
-					vehicle="Citizen3";
+					vehicle="Priest";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -318,11 +325,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.1101,4.1295543,4597.9419};
-					azimut=98.110931;
+					position[]={2136.1367,4.1295543,4611.4028};
+					azimut=98.110901;
 					id=20;
 					side="CIV";
-					vehicle="Worker4";
+					vehicle="ibr_africaman7s";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -338,11 +345,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.1313,4.1295543,4596.4644};
-					azimut=96.676926;
+					position[]={2136.2102,4.1295543,4609.8467};
+					azimut=96.676903;
 					id=19;
 					side="CIV";
-					vehicle="Worker3";
+					vehicle="ibr_africaman7";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -358,11 +365,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.1589,4.1295543,4595.0908};
-					azimut=88.142929;
+					position[]={2136.2378,4.1295543,4608.4731};
+					azimut=88.142899;
 					id=18;
 					side="CIV";
-					vehicle="Villager4";
+					vehicle="ibr_africaman5";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -378,11 +385,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.0564,4.1295543,4593.5498};
-					azimut=448.03784;
+					position[]={2136.1353,4.1295543,4606.9321};
+					azimut=448.03799;
 					id=17;
 					side="CIV";
-					vehicle="Villager1";
+					vehicle="ibr_africaman4";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -398,11 +405,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.1187,4.1295543,4599.3037};
-					azimut=90.301926;
+					position[]={2136.3552,4.1295543,4604.0356};
+					azimut=90.301903;
 					id=16;
 					side="CIV";
-					vehicle="Worker1";
+					vehicle="ibr_africaman2s";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -418,11 +425,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.1753,4.1295543,4592.0479};
-					azimut=85.296936;
+					position[]={2136.2542,4.1295543,4605.4302};
+					azimut=85.296898;
 					id=15;
 					side="CIV";
-					vehicle="Profiteer4";
+					vehicle="ibr_africaman3s";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -438,11 +445,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.0962,4.1295543,4600.5791};
-					azimut=105.06993;
+					position[]={2136.3589,4.1295543,4602.5767};
+					azimut=105.07;
 					id=14;
 					side="CIV";
-					vehicle="Worker2";
+					vehicle="ibr_africaman1s";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -458,11 +465,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2135.9963,4.1295543,4611.4932};
-					azimut=448.08685;
+					position[]={2136.2852,4.1295543,4600.9507};
+					azimut=448.08701;
 					id=13;
 					side="CIV";
-					vehicle="Profiteer3";
+					vehicle="Dr_Hladik_EP1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -478,11 +485,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.0781,4.1295543,4601.8691};
-					azimut=443.78381;
+					position[]={2136.3931,4.1295543,4599.6079};
+					azimut=443.784;
 					id=12;
 					side="CIV";
-					vehicle="Profiteer1";
+					vehicle="Haris_Press_EP1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -498,11 +505,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.0459,4.1295543,4610.2944};
-					azimut=445.28687;
+					position[]={2136.3875,4.1295543,4598.1743};
+					azimut=445.28699;
 					id=11;
 					side="CIV";
-					vehicle="Profiteer2";
+					vehicle="CIV_EuroMan01_EP1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -518,11 +525,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.0627,4.1295543,4609.0425};
-					azimut=445.28687;
+					position[]={2136.3782,4.1295543,4596.8433};
+					azimut=445.28699;
 					id=10;
 					side="CIV";
-					vehicle="Functionary2";
+					vehicle="Functionary1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -538,11 +545,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.0393,4.1295543,4607.812};
-					azimut=445.28687;
+					position[]={2136.3284,4.1295543,4595.4028};
+					azimut=445.28699;
 					id=9;
 					side="CIV";
-					vehicle="Functionary1";
+					vehicle="Functionary2";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -558,11 +565,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.0552,4.1295543,4606.4917};
-					azimut=445.28687;
+					position[]={2136.344,4.1295543,4593.6357};
+					azimut=445.28699;
 					id=8;
 					side="CIV";
-					vehicle="Citizen4";
+					vehicle="CIV_EuroMan02_EP1";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -2737,13 +2744,13 @@ class Mission
 					azimut=178.942;
 					id=1476;
 					side="WEST";
-					vehicle="VIL_ctl_policeman";
+					vehicle="DU_Charactersman";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Cop1";
 					init="removeAllWeapons this; ";
-					description="Police Officer";
+					description="Dispatch, Chief of police.";
 				};
 			};
 		};
@@ -2765,6 +2772,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop2";
 					init="removeAllWeapons this; ";
+					description="General Duties";
 				};
 			};
 		};
@@ -2787,6 +2795,7 @@ class Mission
 					ammo=0.99000001;
 					text="Cop3";
 					init="removeAllWeapons this; ";
+					description="General Duties";
 				};
 			};
 		};
@@ -2808,6 +2817,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop4";
 					init="removeAllWeapons this; ";
+					description="General Duties";
 				};
 			};
 		};
@@ -2829,6 +2839,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop5";
 					init="removeAllWeapons this; ";
+					description="General Duties";
 				};
 			};
 		};
@@ -2850,6 +2861,7 @@ class Mission
 					skill=0.60000002;
 					text="Cop6";
 					init="removeAllWeapons this; ";
+					description="General Duties";
 				};
 			};
 		};
@@ -2864,12 +2876,13 @@ class Mission
 					position[]={2125.8962,4.1295543,4419.707};
 					id=1482;
 					side="WEST";
-					vehicle="VIL_ctl_policeman";
+					vehicle="DU_Characters";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Cop7";
 					init="removeAllWeapons this; this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +1.16]";
+					description="Australian Federal Police";
 				};
 			};
 		};
@@ -2885,12 +2898,13 @@ class Mission
 					azimut=180;
 					id=1483;
 					side="WEST";
-					vehicle="VIL_ctl_policeman";
+					vehicle="DU_Characters";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Cop8";
 					init="removeAllWeapons this; ";
+					description="Australian Federal Police";
 				};
 			};
 		};
@@ -2905,12 +2919,13 @@ class Mission
 					position[]={2116.0012,4.1295543,4419.7329};
 					id=1484;
 					side="WEST";
-					vehicle="VIL_ctl_policeman";
+					vehicle="DU_Characters";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Cop9";
 					init="removeAllWeapons this; ";
+					description="Australian Federal Police";
 				};
 			};
 		};
@@ -2925,12 +2940,13 @@ class Mission
 					position[]={2122.4568,4.1295543,4419.7173};
 					id=1485;
 					side="WEST";
-					vehicle="VIL_ctl_policeman";
+					vehicle="DU_Characters";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Cop10";
 					init="removeAllWeapons this; ";
+					description="Australian Federal Police";
 				};
 			};
 		};
@@ -2945,12 +2961,13 @@ class Mission
 					position[]={2128.481,4.1295543,4419.7393};
 					id=1486;
 					side="WEST";
-					vehicle="VIL_ctl_policeman";
+					vehicle="DU_Characters";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Cop11";
 					init="removeAllWeapons this; ";
+					description="Australian Federal Police";
 				};
 			};
 		};
@@ -2962,15 +2979,16 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.5527,4.1295543,4419.7441};
+					position[]={2136.8145,4.1295543,4419.4819};
 					id=1487;
 					side="WEST";
-					vehicle="VIL_ctl_policeman";
+					vehicle="vilas_sira_swat";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Cop12";
 					init="removeAllWeapons this; ";
+					description="Swat (Camo)";
 				};
 			};
 		};
@@ -2985,12 +3003,13 @@ class Mission
 					position[]={2119.0618,4.1295543,4419.6284};
 					id=1488;
 					side="WEST";
-					vehicle="VIL_ctl_policeman";
+					vehicle="vilas_sira_swat_m416";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Cop13";
 					init="removeAllWeapons this; ";
+					description="Swat (Black1)";
 				};
 			};
 		};
@@ -3005,13 +3024,13 @@ class Mission
 					position[]={2131.3979,4.1295543,4419.7158};
 					id=1489;
 					side="WEST";
-					vehicle="VIL_ctl_policeman";
+					vehicle="ibr_fea2";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Cop14";
 					init="removeAllWeapons this; ";
-					description="Police Officer";
+					description="Swat (Black2)";
 				};
 			};
 		};
@@ -3023,16 +3042,16 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2134.1907,4.1295543,4419.7222};
+					position[]={2134.1038,4.1295543,4419.5479};
 					id=1490;
 					side="WEST";
-					vehicle="VIL_ctl_policeman";
+					vehicle="ibr_africaman7";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Cop15";
 					init="removeAllWeapons this; ";
-					description="Police Officer";
+					description="Undercover Unit (Trained Cops only)";
 				};
 			};
 		};
@@ -3048,12 +3067,13 @@ class Mission
 					azimut=180;
 					id=1491;
 					side="WEST";
-					vehicle="VIL_ctl_policeman";
+					vehicle="ibr_africaman4s";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Cop16";
 					init="removeAllWeapons this; ";
+					description="Undercover Unit (Trained Cops only)";
 				};
 			};
 		};
