@@ -296,6 +296,7 @@ class Mission
 					id=6;
 					side="CIV";
 					vehicle="Rocker1";
+					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 					text="Civ2";
@@ -355,7 +356,7 @@ class Mission
 					azimut=96.676903;
 					id=19;
 					side="CIV";
-					vehicle="ibr_africaman7";
+					vehicle="ibr_africaman6s";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -440,6 +441,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Civ11";
+					description="Jungle Shirt Shorts";
 				};
 			};
 		};
