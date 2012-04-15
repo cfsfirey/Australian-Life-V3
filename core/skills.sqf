@@ -11,7 +11,8 @@ RPP_var_skills =
     ["cooking", "Cooking"],
     ["forestry", "Forestry/Harvesting"],
     ["farming", "Farming"],
-	["butchery", "Butchery"]
+	["butchery", "Butchery"],
+	["weapons", "Gunsmith"]
 ];
 
 RPP_var_maxSkill = 99;

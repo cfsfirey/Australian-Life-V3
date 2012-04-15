@@ -20,6 +20,21 @@ _RPP_var_itemFactory =
     ["Fishing_rod", ["manufacture", 15, 900]]
 ];
 
+//_AUS_var_wepFactory = 
+//[
+//	["Skoda", ["weapons", 1, 750]],
+//	["SkodaRed", ["weapons", 1, 750]],
+//	["SkodaBlue", ["weapons", 1, 750]],
+//	["SkodaGreen", ["weapons", 10, 750]],
+//	["VWGolf", ["weapons", 10, 900]],
+//	["car_hatchback", ["weapons", 10, 820]],
+//	["car_sedan", ["weapons", 50, 820]],
+//	["Lada1_TK_CIV_EP1", ["weapons", 50, 820]],
+//	["Lada2_TK_CIV_EP1", ["weapons", 50, 820]],
+//	["Volha_1_TK_CIV_EP1", ["weapons", 90, 820]],
+//	["Volha_2_TK_CIV_EP1", ["weapons", 90, 820]]
+//];
+
 _ALR_var_carFactory = 
 [
 	//Cars
@@ -106,6 +121,7 @@ RPP_var_factoryDefine =
 	[heavy_factory, "Heavy Vehicle Factory", heavy_car_factory_storage, _ALR_var_truckFactory],
 	[item_factory, "Item Factory", item_factory_storage, _RPP_var_itemFactory],
 	[air_factory, "Air Factory", air_factory_storage, _ALR_var_airFactory],
+	[wep_factory, "Weapons Factory", wep_factory_storage, _AUS_var_wepFactory],
 	[manufacturing_plant, "Manufacturing Plant", manufacturing_plant_storage, _ALR_var_manufacturingPlant]
 ];
 

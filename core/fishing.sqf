@@ -6,28 +6,28 @@ Copyright (C) 2011  Matthew Simms
 //Class, Bait, Required Level, [Min Depth, Max Depth], Chance, Exp
 RPP_var_fishingRod_define =
 [
-    ["Minnow", "", 1, [0, 100], 25, 160], 
-    ["Bluegill", "Worm", 1, [0, 100], 17, 220],
-    ["Catfish", "Minnow", 20, [0, 100], 6, 280],
-	["Perch", "Worm", 10, [0, 100], 10, 230],
-	["Trout", "Worm", 15, [0, 100], 8, 210],
-	["RockBass", "Minnow", 25, [0, 100], 4, 310]
+    ["Minnow", "", 1, [0, 10], 45, 160], 
+    ["Bluegill", "Worm", 1, [0, 10], 37, 220],
+    ["Catfish", "Minnow", 20, [0, 10], 26, 280],
+	["Perch", "Worm", 10, [0, 10], 30, 230],
+	["Trout", "Worm", 15, [0, 10], 25, 210],
+	["RockBass", "Minnow", 25, [0, 10], 24, 310]
 ];
 
 ALR_var_fishingnet_define =
 [
-    ["Shrimp", "", 1, [100, 200], 25, 180], 
-    ["Sardine", "Worm", 10, [100, 200], 17, 250],
-    ["Monkfish", "Minnow", 60, [100, 200], 2, 600],
-	["Salmon", "Worm", 30, [100, 200], 4, 370]
+    ["Shrimp", "", 1, [10, 100], 35, 180], 
+    ["Sardine", "Worm", 10, [10, 100], 27, 250],
+    ["Monkfish", "Minnow", 60, [10, 100], 12, 600],
+	["Salmon", "Worm", 30, [10, 100], 14, 370]
 ];
 
 ALR_var_harpoon_define =
 [
-	["Shark", "", 65, [200, 400], 2, 620], 
-    ["Tuna", "", 25, [200, 400], 4, 350],
-    ["Whale", "", 99, [200, 600], 1, 1200],
-	["Swordfish", "", 50, [200, 400], 10, 500]
+	["Shark", "", 65, [10, 100], 7, 620], 
+    ["Tuna", "", 25, [10, 100], 9, 350],
+    ["Whale", "", 99, [10, 100], 6, 1200],
+	["Swordfish", "", 50, [10, 100], 15, 500]
 ];
 	
 

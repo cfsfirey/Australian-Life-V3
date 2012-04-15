@@ -1,6 +1,6 @@
 RPP_var_gathering_define = 
 [
-    ["farm_wheat", 120, "", localize "STRS_gather_startWheat", ["farming", 1, 80], ["Wheat", 45, 1, 4], ["Tractor", 3]]
+    ["farm_wheat", 300, "", localize "STRS_gather_startWheat", ["farming", 1, 80], ["Wheat", 45, 1, 4], ["Tractor", 3]]
 ];
 
 RPP_var_isGathering = false;

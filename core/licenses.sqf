@@ -6,6 +6,9 @@ Copyright (C) 2011  Matthew Simms
 RPP_var_licenseShops = 
 [
     [license_car, "car", 1200],
+	[license_boat, "boat", 500],
+	[license_taxi, "taxi", 500],
+	[license_passport, "passport", 300],
 	[license_pistol, "pistol", 15000],
 	[license_semiautogun, "semiautogun", 24200],
 	[license_truck, "truck", 10000],
@@ -15,9 +18,12 @@ RPP_var_licenseShops =
 RPP_var_licenses =
 [
     ["car", "Class C License"],
+	["boat", "Boat License"],
+	["taxi", "Class T License"],
+	["passport", "Passport"],
 	["pistol", "Pistol License"],
 	["semiautogun", "Semi Automatic Rifle License"],
-	["truck", "Class MC License"],
+	["truck", "Class HR License"],
 	["pilot", "CPL License"]
 ];
 
