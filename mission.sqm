@@ -2792,7 +2792,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2136.5483,4.1295543,4421.9038};
+					position[]={2136.6221,4.1295543,4422.0103};
 					azimut=180;
 					id=1477;
 					side="WEST";
@@ -3162,7 +3162,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1647;
+		items=1650;
 		class Item0
 		{
 			position[]={2569.8213,4.1295543,4685.356};
@@ -7982,7 +7982,7 @@ class Mission
 			vehicle="oilrig_base";
 			skill=0.60000002;
 			text="oil1";
-			init=" getPos this select 0, getPos this select 1, 20]";
+			init="this setPos [getPos this select 0, getPos this select 1, 2]";
 		};
 		class Item428
 		{
@@ -19066,7 +19066,7 @@ class Mission
 		};
 		class Item1471
 		{
-			position[]={2221.7781,4.3580456,5070.4951};
+			position[]={6534.3301,-0.21323936,4544.7808};
 			azimut=177.832;
 			id=1547;
 			side="EMPTY";
@@ -19076,13 +19076,14 @@ class Mission
 		};
 		class Item1472
 		{
-			position[]={2226.5046,4.3580456,5070.5605};
+			position[]={2224.5732,11.553834,5063.3364};
 			azimut=177.832;
 			id=1548;
 			side="EMPTY";
 			vehicle="Misc_palletsfoiled_heap";
 			skill=0.60000002;
 			text="boatpub_storage1";
+			init="this setPos [getPos this select 0, getPos this select 1, 4.3]";
 		};
 		class Item1473
 		{
@@ -20710,10 +20711,43 @@ class Mission
 			vehicle="MAP_asf3_0_2000";
 			skill=1;
 		};
+		class Item1647
+		{
+			position[]={2750.7205,4.1295543,4432.1753};
+			azimut=180;
+			id=1726;
+			side="EMPTY";
+			vehicle="flagAus";
+			leader=1;
+			skill=0.60000002;
+			text="license_taxi";
+			init="this allowdamage false;";
+		};
+		class Item1648
+		{
+			position[]={1985.0436,4.3484211,5065.5596};
+			azimut=180;
+			id=1727;
+			side="EMPTY";
+			vehicle="flagAus";
+			leader=1;
+			skill=0.60000002;
+			text="license_boat";
+			init="this allowdamage false; this setPos [getPos this select 0, getPos this select 1, 2.3]";
+		};
+		class Item1649
+		{
+			position[]={2171.3489,4.1295543,4609.9395};
+			id=1728;
+			side="EMPTY";
+			vehicle="FlagCarrierCDF";
+			skill=0.60000002;
+			text="license_passport";
+		};
 	};
 	class Markers
 	{
-		items=121;
+		items=122;
 		class Item0
 		{
 			position[]={1886.376,4.1295543,4219.2949};
@@ -20753,9 +20787,9 @@ class Mission
 		};
 		class Item4
 		{
-			position[]={2175.8694,4.3756375,4610.8188};
+			position[]={2172.1016,4.1295543,4610.5293};
 			name="license_car";
-			text="Car License";
+			text="Car Lic & Passport ";
 			type="mil_flag";
 			colorName="ColorYellow";
 			a=0.64999998;
@@ -21795,7 +21829,7 @@ class Mission
 		};
 		class Item117
 		{
-			position[]={2223.3538,4.3580456,5071.0903};
+			position[]={6535.9063,-0.1726442,4545.376};
 			name="storage_area_2";
 			text="Boating Storage";
 			type="mil_flag";
@@ -21830,6 +21864,16 @@ class Mission
 			text="Aircraft Storage";
 			type="mil_flag";
 			colorName="ColorOrange";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item121
+		{
+			position[]={1984.934,4.3484211,5065.9946};
+			name="license_car_1";
+			text="Boat License";
+			type="mil_flag";
+			colorName="ColorYellow";
 			a=0.64999998;
 			b=0.64999998;
 		};
