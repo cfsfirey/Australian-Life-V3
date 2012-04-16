@@ -14,39 +14,39 @@ closeDialog 0;
 
 _foodArray =
 [
-    ["Minnow", 0.25, localize "STRS_food_minnow"],
-    ["Bluegill", 6, localize "STRS_food_bluegill"],
-	["Catfish", 7, "You ate the Catfish(s)"],
-	["Perch", 7, "You ate the Perch(s)"],
-	["Trout", 7.5, "You ate the Trout(s)"],
-	["RockBass", 7.6, "You ate the RockBass(s)"],
+    ["Minnow", 15, localize "STRS_food_minnow"],
+    ["Bluegill", 25, localize "STRS_food_bluegill"],
+	["Catfish", 10, "You ate the Catfish(s)"],
+	["Perch", 15, "You ate the Perch(s)"],
+	["Trout", 25, "You ate the Trout(s)"],
+	["RockBass", 25, "You ate the RockBass(s)"],
 	
-	["Shrimp", 1, "You ate the Shrimp(s)"],
-	["Sardine", 4, "You ate the Sardine(s)"],
-	["Monkfish", 5, "You ate the Monkfish(s)"],
-	["Salmon", 5, "You ate the Salmon(s)"],
-	["Shark", 20, "You ate the Shark(s)"],	
-	["Tuna", 15, "You ate the Tuna(s)"],	
-	["Whale", 50, "You ate the Whale(s)"],	
-	["Swordfish", 15, "You ate the Swordfish(s)"],	
+	["Shrimp", 10, "You ate the Shrimp(s)"],
+	["Sardine", 10, "You ate the Sardine(s)"],
+	["Monkfish", 15, "You ate the Monkfish(s)"],
+	["Salmon", 50, "You ate the Salmon(s)"],
+	["Shark", 100, "You ate the Shark(s)"],	
+	["Tuna", 40, "You ate the Tuna(s)"],	
+	["Whale", 100, "You ate the Whale(s)"],	
+	["Swordfish", 20, "You ate the Swordfish(s)"],	
 	
-	["Rabbit", 20, "You ate the Rabbit(s)"],	
-	["Chicken", 15, "You ate the Tuna(s)"],	
+	["Rabbit", 45, "You ate the Rabbit(s)"],	
+	["Chicken", 50, "You ate the Chicken(s)"],	
 	["Lamb", 50, "You ate the Lamb(s)"],	
-	["Cow", 15, "You ate the Cow(s)"],
-	["Boar", 15, "You ate the Boar(s)"],
+	["Cow", 80, "You ate the Cow(s)"],
+	["Boar", 60, "You ate the Boar(s)"],
 	
-	["Soup", 1, "You eat the Soup(s)"],
-	["CookedMeat", 10, "You eat the Meat"],
-    ["Sandwich", 10, "You eat the Sandwich(s)"],
-    ["Bread", 8, "You eat the Bread"],
+	["Soup", 50, "You eat the Soup(s)"],
+	["CookedMeat", 25, "You eat the Meat"],
+    ["Sandwich", 25, "You eat the Sandwich(s)"],
+    ["Bread", 15, "You eat the Bread"],
 	["Apple", 20, "You eat the Apple(s)"],
-	["Pumpkin", 10, "You ate the Pumpkin"],
+	["Pumpkin", 20, "You ate the Pumpkin"],
     ["Cabbage", 10, "You ate the Cabbage(s)"],
-    ["Potato", 8, "You ate the Potato"],
-	["Meat", 10, "You eat the Meat"],
+    ["Potato", 15, "You ate the Potato"],
+	["Meat", 15, "You eat the Meat"],
 	
-    ["Donut", 6, "You eat the Donut(s)"]
+    ["Donut", 30, "You eat the Donut(s)"]
 ];
 
 {
