@@ -223,7 +223,6 @@ class Mission
 		"qin_evoix",
 		"jt_police",
 		"jt_uc_police",
-		"camp_armory_misc_laptop",
 		"mackr",
 		"mackr2rig",
 		"cl_torq",
@@ -3238,7 +3237,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1650;
+		items=1661;
 		class Item0
 		{
 			position[]={2569.8213,4.1295543,4685.356};
@@ -18463,7 +18462,7 @@ class Mission
 		};
 		class Item1407
 		{
-			position[]={2089.3259,4.1295543,4388.8569};
+			position[]={2094.5388,4.1295543,4389.3311};
 			azimut=-0.22454756;
 			id=1466;
 			side="EMPTY";
@@ -18475,7 +18474,7 @@ class Mission
 		};
 		class Item1408
 		{
-			position[]={2084.4514,4.1295543,4388.8403};
+			position[]={2089.6643,4.1295543,4389.3145};
 			azimut=-0.22454756;
 			id=1467;
 			side="EMPTY";
@@ -18487,7 +18486,7 @@ class Mission
 		};
 		class Item1409
 		{
-			position[]={2096.0503,6.9642324,4403.9702};
+			position[]={2096.0503,6.9642415,4403.7349};
 			azimut=269.22739;
 			id=1468;
 			side="EMPTY";
@@ -18510,7 +18509,7 @@ class Mission
 		};
 		class Item1411
 		{
-			position[]={2098.157,4.1295543,4388.6875};
+			position[]={2103.3699,4.1295543,4389.1616};
 			azimut=-0.22454756;
 			id=1470;
 			side="EMPTY";
@@ -18522,7 +18521,7 @@ class Mission
 		};
 		class Item1412
 		{
-			position[]={2093.9917,4.1295543,4388.8779};
+			position[]={2099.2046,4.1295543,4389.3521};
 			azimut=-0.22454756;
 			id=1471;
 			side="EMPTY";
@@ -18563,7 +18562,7 @@ class Mission
 		};
 		class Item1416
 		{
-			position[]={2079.5288,4.1295543,4388.7407};
+			position[]={2084.7417,4.1295543,4389.2148};
 			azimut=-0.22454756;
 			id=1491;
 			side="EMPTY";
@@ -18574,7 +18573,7 @@ class Mission
 		};
 		class Item1417
 		{
-			position[]={2102.5698,4.1295543,4388.9897};
+			position[]={2107.7827,4.1295543,4389.4639};
 			azimut=-0.22454756;
 			id=1492;
 			side="EMPTY";
@@ -18710,10 +18709,10 @@ class Mission
 			azimut=90.267097;
 			id=1504;
 			side="EMPTY";
-			vehicle="Laptop_EP1";
+			vehicle="Suitcase";
 			skill=0.60000002;
 			text="shop_police_gps";
-			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +0.8];this allowdamage false;this enableSimulation false;";
+			init="this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +0.85];this allowdamage false;this enableSimulation false;";
 		};
 		class Item1430
 		{
@@ -20821,6 +20820,129 @@ class Mission
 			skill=0.60000002;
 			text="license_passport";
 		};
+		class Item1650
+		{
+			position[]={2112.3767,4.1295543,4389.5151};
+			azimut=-0.224548;
+			id=1733;
+			side="EMPTY";
+			vehicle="FordUCBlack";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_ucfalcon_1";
+		};
+		class Item1651
+		{
+			position[]={2117.0964,4.1295543,4389.5264};
+			azimut=-0.224548;
+			id=1734;
+			side="EMPTY";
+			vehicle="FordUCBlue";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_ucfalcon_2";
+		};
+		class Item1652
+		{
+			position[]={2121.7439,4.1295543,4389.5688};
+			azimut=-0.224548;
+			id=1735;
+			side="EMPTY";
+			vehicle="FordUCGreen";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_ucfalcon_3";
+		};
+		class Item1653
+		{
+			position[]={2126.3372,4.1295543,4389.6011};
+			azimut=-0.224548;
+			id=1736;
+			side="EMPTY";
+			vehicle="FordUCRed";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_ucfalcon_4";
+		};
+		class Item1654
+		{
+			position[]={2130.927,4.1295543,4389.6011};
+			azimut=-0.224548;
+			id=1737;
+			side="EMPTY";
+			vehicle="FordUCSilver";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_ucfalcon_5";
+		};
+		class Item1655
+		{
+			position[]={2135.6084,4.1295543,4389.6533};
+			azimut=-0.224548;
+			id=1738;
+			side="EMPTY";
+			vehicle="FordUCWhite";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_ucfalcon_6";
+		};
+		class Item1656
+		{
+			position[]={2079.9121,4.1295543,4389.2183};
+			azimut=-0.224548;
+			id=1739;
+			side="EMPTY";
+			vehicle="CopcarAus";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_Copcarfed";
+			init="this allowdamage false;";
+		};
+		class Item1657
+		{
+			position[]={2075.1807,4.1295543,4389.1865};
+			azimut=-0.224548;
+			id=1740;
+			side="EMPTY";
+			vehicle="CopcarAusgreen";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_Copcarfed2";
+			init="this allowdamage false;";
+		};
+		class Item1658
+		{
+			position[]={2095.9985,6.9574318,4405.6899};
+			azimut=90;
+			id=1741;
+			side="EMPTY";
+			vehicle="Suitcase";
+			skill=0.60000002;
+			text="shop_police_cherry";
+			init="clearWeaponCargo this;clearMagazineCargo this;this setPos [ getPos this select 0, getPos this select 1, (getPos this select 2) +0.8];this allowdamage false;this enableSimulation false;";
+		};
+		class Item1659
+		{
+			position[]={2096.127,6.9579477,4405.6528};
+			azimut=90.267097;
+			id=1742;
+			side="EMPTY";
+			vehicle="FoldTable";
+			skill=0.60000002;
+			init="this enableSimulation false;";
+		};
+		class Item1660
+		{
+			position[]={2070.6458,4.1295543,4389.165};
+			azimut=-0.224548;
+			id=1743;
+			side="EMPTY";
+			vehicle="CopcarHW";
+			lock="LOCKED";
+			skill=0.60000002;
+			text="shop_CopcarHW1";
+			init="this allowdamage false;";
+		};
 	};
 	class Markers
 	{
@@ -21781,7 +21903,7 @@ class Mission
 		};
 		class Item103
 		{
-			position[]={2096.2642,6.9614878,4404.0698};
+			position[]={2096.2642,6.9614973,4403.8345};
 			name="pATM";
 			text="ATM";
 			type="mil_flag";
@@ -21791,7 +21913,7 @@ class Mission
 		};
 		class Item104
 		{
-			position[]={2090.2461,4.1295543,4392.9023};
+			position[]={2109.6755,4.1295543,4388.7324};
 			name="cop_item_shop_1";
 			text="Police Cars";
 			type="mil_flag";
