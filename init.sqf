@@ -3,7 +3,7 @@ The Roleplay Project: Reloaded
 Copyright (C) 2011  Matthew Simms
 */
 
-RPP_Debug = true;
+RPP_Debug = false;
 RPP_Mission_Version = 0.6;
 RPP_Intro = true;
 RPP_QuickTest = false;
@@ -13,7 +13,7 @@ RPP_AcreEnabled = true;
 
 #define __isServer ((isDedicated) && (isServer))
 
-//startLoadingScreen ["Initializing...", "RscDisplayStart"];
+startLoadingScreen ["Initializing...", "RscDisplayStart"];
 
 progressLoadingScreen 0.15;
 
@@ -148,8 +148,8 @@ waitUntil {scriptDone _script};
 _script = [] execVM "core\trading.sqf";
 waitUntil {scriptDone _script};
 
-//_script = [] execVM "core\account.sqf";
-//waitUntil {scriptDone _script};
+_script = [] execVM "core\account.sqf";
+waitUntil {scriptDone _script};
 
 _script = [] execVM "core\restrain.sqf";
 waitUntil {scriptDone _script};

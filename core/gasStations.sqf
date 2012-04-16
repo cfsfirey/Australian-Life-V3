@@ -3,7 +3,7 @@ The Roleplay Project: Reloaded
 Copyright (C) 2011  Matthew Simms
 */
 
-RPP_var_gasStations = [ [gas1, "Arar Fuel"], [gas2, "Schnell Fuel"], [gas3, "Oxygen Fuel"], [gas4, "Schnell Fuel"], [gas5, "Schnell Fuel"]   ];
+RPP_var_gasStations = [ [gas1, "Arar Fuel"], [gas2, "Schnell Fuel"], [gas3, "Oxygen Fuel"], [gas4, "Schnell Fuel"], [gas5, "Schnell Fuel"], [gas6, "Schnell Fuel"], [gas7, "Schnell Fuel"], [gas8, "Schnell Fuel"], [gas9, "Schnell Fuel"]   ];
 { 
     _logic = (_x select 0);
     (_x select 0) setVariable["bill", 0, false]; 
