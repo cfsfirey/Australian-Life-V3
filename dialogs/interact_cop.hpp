@@ -4,7 +4,7 @@ class RPP_Dlg_InteractCop
     movingEnable = false;
     controlsBackground[] = { Background, Footer, Header };
     objects[] = { };
-    controls[] = { Title, BtnTrade, BtnSearch, BtnDisarm, BtnArrest, BtnClose  };
+    controls[] = { Title, BtnTrade, BtnSearch, BtnDisarm, BtnArrest, BtnStun, BtnClose  };
     OnLoad = " ""dynamicBlur"" ppEffectEnable true; ""dynamicBlur"" ppEffectAdjust [1.6]; ""dynamicBlur"" ppEffectCommit 0;";
     OnUnload = " ""dynamicBlur"" ppEffectEnable false; ";
         
@@ -16,7 +16,7 @@ class RPP_Dlg_InteractCop
         x = 0.406857 * safezoneW + safezoneX;
         y = 0.246317 * safezoneH + safezoneY;
         w = 0.144622 * safezoneW;
-        h = 0.335533 * safezoneH;
+        h = 0.39766463 * safezoneH;
     };
     
     class Footer : RPP_BackgroundFill
@@ -24,7 +24,7 @@ class RPP_Dlg_InteractCop
         idc = 1201;
         text = "images\footer_webbox1.paa";
         x = 0.406859 * safezoneW + safezoneX;
-        y = 0.580593 * safezoneH + safezoneY;
+        y = 0.64272463 * safezoneH + safezoneY;
         w = 0.144623 * safezoneW;
         h = 0.0160338 * safezoneH;
     };
@@ -88,16 +88,28 @@ class RPP_Dlg_InteractCop
         w = 0.0891026 * safezoneW;
         h = 0.0431261 * safezoneH;
     };
-    
+
+        class BtnStun : RPP_Button
+    {
+        idc = 1700;
+        text = "Pistol Whip";
+        x = 0.432426 * safezoneW + safezoneX;
+        y = 0.51754093 * safezoneH + safezoneY;
+        w = 0.0891026 * safezoneW;
+        h = 0.0431261 * safezoneH;
+   
+    };
+
     class BtnClose : RPP_Button
     {
         idc = 1601;
         text = "Close";
         x = 0.432426 * safezoneW + safezoneX;
-        y = 0.51754093 * safezoneH + safezoneY;
+        y = 0.57967256 * safezoneH + safezoneY;
         w = 0.0891026 * safezoneW;
         h = 0.0431261 * safezoneH;
         action = "closeDialog 0";
     };
     
 };
+
