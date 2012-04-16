@@ -4,7 +4,7 @@ ALR_acre_radios =
 	
 	if (side player==west or side player==east) then 
 	{
-		player removeweapon (_ALR_var_acre_radio select 0);
+		
 		player addweapon "ACRE_PRC343";
 		{
 			_ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
@@ -23,5 +23,8 @@ ALR_acre_radios =
 		} forEach _ALR_var_acre_radio;
 	};
 	sleep 1;
-	
+		
+
+	_ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;	
+	player removeweapon (_ALR_var_acre_radio select 0);
 };
