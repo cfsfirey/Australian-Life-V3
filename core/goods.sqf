@@ -178,6 +178,14 @@ RPP_var_goods =
 	["Copcar", ["VEHICLE", "CAR"], ["Holden Monaro Standard", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
 	["Fordpatrolbasic", ["VEHICLE", "CAR"], ["Ford Falcon Standard", "No Desc"], [15500, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
 	["FordUC", ["VEHICLE", "CAR"], ["Ford Falcon UnderCover", "No Desc"], [30000, 15000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["FordUCBlack", ["VEHICLE", "CAR"], ["Ford Falcon UnderCover", "No Desc"], [30000, 15000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["FordUCBlue", ["VEHICLE", "CAR"], ["Ford Falcon UnderCover", "No Desc"], [30000, 15000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["FordUCGreen", ["VEHICLE", "CAR"], ["Ford Falcon UnderCover", "No Desc"], [30000, 15000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["FordUCRed", ["VEHICLE", "CAR"], ["Ford Falcon UnderCover", "No Desc"], [30000, 15000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["FordUCSilver", ["VEHICLE", "CAR"], ["Ford Falcon UnderCover", "No Desc"], [30000, 15000], 65, "core\items\noUse.sqf", 220, true, [], false],
+	["FordUCWhite", ["VEHICLE", "CAR"], ["Ford Falcon UnderCover", "No Desc"], [30000, 15000], 65, "core\items\noUse.sqf", 220, true, [], false],
+
+
 	["CopcarAus", ["VEHICLE", "CAR"], ["Holden Monaro Blue", "No Desc"], [26000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
 	["CopcarAusgreen", ["VEHICLE", "CAR"], ["Holden Monaro Green", "No Desc"], [26000, 10000], 65, "core\items\noUse.sqf", 220, true, [], false],
 	["Copcarhw", ["VEHICLE", "CAR"], ["Holden Monaro Highway Patrol", "No Desc"], [22000, 13000], 65, "core\items\noUse.sqf", 220, true, [], false],
