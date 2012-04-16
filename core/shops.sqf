@@ -93,12 +93,22 @@ RPP_var_shops =
     	
 	/* Police Car Shop */
 	[shop_Copcar, "Copcar", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+    [shop_CopcarHW1, "Copcarhw", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
     [shop_CopcarHW2, "CopcarHW2", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	[shop_swat_suv, "SUV_TK_CIV_EP1", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	[shop_cop_qin_black, "qin_evoix_black", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	[shop_cop_monaro_black, "Civcarsl", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	[shop_policefalcon, "Fordpatrolbasic", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	[shop_ucfalcon, "FordUC", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_ucfalcon_1, "FordUCBlack", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_ucfalcon_2, "FordUCBlue", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_ucfalcon_3, "FordUCGreen", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_ucfalcon_4, "FordUCRed", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_ucfalcon_5, "FordUCSilver", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_ucfalcon_6, "FordUCWhite", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_Copcarfed, "CopcarAus", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+	[shop_Copcarfed2, "CopcarAusgreen", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
+
 	
 	/* Emergency Service Vehicles */
 	[shop_firetruck, "a2l_kme", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
@@ -106,6 +116,7 @@ RPP_var_shops =
 	[shop_cheif, "CL_chargerclEMT", "", [0,0], [] call RPP_fnc_generateID, 99, true, true],
 	
 	/* Police Item Shop */
+	[shop_police_cherry, "Cherrylight", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],	
 	[shop_police_map, "ItemMap", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     [shop_police_compass, "ItemCompass", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
     [shop_police_watch, "ItemWatch", "", [0, 0], [] call RPP_fnc_generateID, 250, true, true],
