@@ -190,7 +190,7 @@ RPP_var_shops =
     [shop_shop3_map, "ItemMap", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_shop3_compass, "ItemCompass", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_shop3_watch, "ItemWatch", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
-    [shop_shop3_radio, "ACRE_PRC148", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
+    [shop_shop3_radio, "ItemRadio", "", [0, 0], [] call RPP_fnc_generateID, 4, true, true],
     [shop_shop3_gps, "ItemGPS", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
     //[shop_shop3_lockpick, "Lockpick", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],
     [shop_shop3_crowbar, "Crowbar", "", [0, 0], [] call RPP_fnc_generateID, 10, true, true],

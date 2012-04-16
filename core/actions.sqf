@@ -132,6 +132,11 @@ RPP_fnc_onKeyPress =
     {
         [] spawn RPP_fnc_holsterPistol;
     };
+	
+	if ((_key == 45) && (_shift) && (_ctrl)) then /* Change Radio Channel */
+    {
+        [] execVM "core\items\fnc_openRadio.sqf";
+   };
     
     /* Lets do some checks anyway for vehicles and players */
     _curTarget = cursorTarget;
