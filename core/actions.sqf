@@ -133,11 +133,6 @@ RPP_fnc_onKeyPress =
         [] spawn RPP_fnc_holsterPistol;
     };
 	
-	if ((_key == 45) && (_shift) && (_ctrl)) then /* Change Radio Channel */
-    {
-        [] execVM "core\items\fnc_openRadio.sqf";
-   };
-    
     /* Lets do some checks anyway for vehicles and players */
     _curTarget = cursorTarget;
     
@@ -184,6 +179,7 @@ RPP_fnc_onKeyPress =
                         ((findDisplay 1100) displayCtrl 1203) ctrlSetStructuredText parseText (name _curTarget);
                         buttonSetAction [1600, format["%1 call RPP_fnc_trading_open;", _curTarget]];
                         buttonSetAction [1602, format["%1 call RPP_fnc_search_openDialog;", _curTarget]];
+						buttonSetAction [1700, format["[%1] call AUS_fnc_stun;", _curTarget]];
                     };
                 };
             };

@@ -3237,7 +3237,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1661;
+		items=1663;
 		class Item0
 		{
 			position[]={2569.8213,4.1295543,4685.356};
@@ -20942,6 +20942,22 @@ class Mission
 			skill=0.60000002;
 			text="shop_CopcarHW1";
 			init="this allowdamage false;";
+		};
+		class Item1661
+		{
+			position[]={2174.3264,4.1295543,4597.4331};
+			id=1744;
+			side="EMPTY";
+			vehicle="monaco";
+			skill=0.60000002;
+		};
+		class Item1662
+		{
+			position[]={2153.9968,4.1295543,4599.5918};
+			id=1745;
+			side="EMPTY";
+			vehicle="TKBasicWeapons_EP1";
+			skill=0.60000002;
 		};
 	};
 	class Markers

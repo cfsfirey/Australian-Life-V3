@@ -90,6 +90,71 @@ RPP_fnc_hasWeaponType =
     _hasWeapon
 };
 
+AUS_fnc_stun = 
+{
+    private ["_victim", "_shooter", "_time", "_weaponHolder", "_weapons", "_magazines"];
+    _victim = _this select 0;
+	_shooter = _this select 1;
+	
+    closeDialog 0;
+	if(player call RPP_fnc_hasWeapon) then
+	{
+    if (RPP_var_isTazed) exitWith {};
+    if (RPP_var_isRestrained) exitWith {};
+    
+    RPP_var_isTazed = true;
+    
+    /* Set animation here */
+    if (vehicle player == player) then
+    {
+        ["RPP_fnc_serverSwitchAnimation", [_victim, "AdthPercMstpSnonWnonDnon_3"]] call RPP_fnet_execPublic;
+    };
+    
+    format[localize "STRS_stun_stunned", name _shooter] call RPP_fnc_hint;
+	 /* Start tazed effect */
+    "radialBlur" ppEffectEnable true;
+    "radialBlur" ppEffectAdjust[0.2, 0.2, 0, 0];
+    "radialBlur" ppEffectCommit 0;
+    
+    _weapons = weapons _victim;
+    _magazines = magazines _victim;
+    
+    if (RPP_var_holstered) then
+    {
+        _weapons set[(count _weapons), RPP_var_holsteredWeapon];
+        RPP_var_holstered = false;
+    };
+    
+    [_victim, _magazines, _weapons] call RPP_fnc_dropWeapons;
+    
+    /* Drop weapons and items */
+    [position _victim] spawn RPP_fnc_dropInventory;
+    
+    
+    /* Disable player */
+    disableUserInput true;
+    _time = time;
+    while {_time+RPP_var_tazedTime > time} do
+    {
+        if !(alive _victim) then
+        {
+            disableUserInput false;
+        };
+        
+        sleep 1;
+        cutText ["","WHITE OUT",1];
+        sleep 1;
+        cutText ["","WHITE IN",1];
+    };
+    
+    cutText ["","WHITE IN", 0.1];
+    "radialBlur" ppEffectEnable false;
+    "radialBlur" ppEffectCommit 5;
+    disableUserInput false;
+	[] spawn ALR_acre_radios;	
+    RPP_var_isTazed = false;
+	};
+};
 RPP_fnc_hasWeaponClass =
 {
     private ["_object", "_class", "_has"];

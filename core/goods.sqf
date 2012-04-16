@@ -37,7 +37,6 @@ RPP_var_goods =
     /* Misc_Items & Tools */
     ["Lockpick", ["ITEM", "TOOL"], ["Lockpick", "No description"], [1000, 160], 0.5, "core\items\lockpick.sqf", 0, true, [1, [ ["IronBar", 1]]], false],
     ["Crowbar", ["ITEM", "TOOL"], ["Crowbar", "No description"], [400, 330], 2, "core\items\crowbar.sqf", 0, true, [1, [ ["IronBar", 2]]], false],
-    
    	["Phone", ["ITEM", "MOBILE"], ["Mobile Phone", "No description"], [1500, 900], 0.5, "core\items\phone.sqf", 0, true, [1, [ ["IronBar", 1], ["ElecComp", 1], ["Copper", 1]]], false],
     ["RepairKit", ["ITEM", "ITEM"], ["RepairKit", "No description"], [600, 440], 10, "core\items\repairKit.sqf", 0, true, [1, [ ["IronBar", 1], ["Rubber", 1], ["Copper", 1], ["Tyre", 1]]], false],
 	["Can", ["ITEM", "ITEM"], ["Can", "No description"], [180, 130], 1, "core\items\refuelCan.sqf", 0, true, [1, [ ["Copper", 1]]], false],

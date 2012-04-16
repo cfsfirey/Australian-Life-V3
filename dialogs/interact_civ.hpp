@@ -4,7 +4,7 @@ class RPP_Dlg_InteractCiv
     movingEnable = false;
     controlsBackground[] = { Background, Footer, Header };
     objects[] = { };
-    controls[] = { Title, BtnTrade, BtnSearch, BtnClose  };
+    controls[] = { Title, BtnTrade, BtnSearch, BtnStun, BtnClose  };
     OnLoad = " ""dynamicBlur"" ppEffectEnable true; ""dynamicBlur"" ppEffectAdjust [1.6]; ""dynamicBlur"" ppEffectCommit 0;";
     OnUnload = " ""dynamicBlur"" ppEffectEnable false; ";
         
@@ -16,7 +16,7 @@ class RPP_Dlg_InteractCiv
         x = 0.406857 * safezoneW + safezoneX;
         y = 0.246317 * safezoneH + safezoneY;
         w = 0.144622 * safezoneW;
-        h = 0.215533 * safezoneH;
+        h = 0.280801 * safezoneH;
     };
     
     class Footer : RPP_BackgroundFill
@@ -24,7 +24,7 @@ class RPP_Dlg_InteractCiv
         idc = 1201;
         text = "images\footer_webbox1.paa";
         x = 0.406859 * safezoneW + safezoneX;
-        y = 0.460593 * safezoneH + safezoneY;
+        y = 0.525861 * safezoneH + safezoneY;
         w = 0.144623 * safezoneW;
         h = 0.0160338 * safezoneH;
     };
@@ -70,10 +70,10 @@ class RPP_Dlg_InteractCiv
         
     };
     
-    class BtnClose : RPP_Button
+    class BtnStun : RPP_Button
     {
-        idc = 1601;
-        text = "Close";
+        idc = 1700;
+        text = "Stun";
         x = 0.432426 * safezoneW + safezoneX;
         y = 0.394093 * safezoneH + safezoneY;
         w = 0.0891026 * safezoneW;
@@ -81,4 +81,14 @@ class RPP_Dlg_InteractCiv
         action = "closeDialog 0";
     };
     
+	    class BtnClose : RPP_Button
+    {
+        idc = 1601;
+        text = "Close";
+        x = 0.432426 * safezoneW + safezoneX;
+        y = 0.459361 * safezoneH + safezoneY;
+        w = 0.0891026 * safezoneW;
+        h = 0.0431261 * safezoneH;
+        action = "closeDialog 0";
+    };
 };

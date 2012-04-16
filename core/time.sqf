@@ -30,12 +30,12 @@ RPP_fnc_timeLoop =
 
 RPP_fnc_isDay = 
 {
-     ((dayTime >= 20) || (dayTime <= 6)) 
+     ((dayTime >= 6) || (dayTime <= 20)) 
 };
 
 RPP_fnc_isNight = 
 {
-    ((dayTime > 6) || (dayTime < 20))
+    ((dayTime > 20) || (dayTime < 6))
 };
 
 RPP_fnc_serverUpdateTime = 
