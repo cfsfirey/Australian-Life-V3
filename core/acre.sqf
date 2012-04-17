@@ -14,7 +14,7 @@ ALR_acre_radios =
 	}
 	else
 	{
-		player removeweapon (_ALR_var_acre_radio select 0);
+
 		player addweapon "ACRE_PRC148";
 		{
 			_ALR_var_acre_radio = [] call acre_api_fnc_getCurrentRadioList;
