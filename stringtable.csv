@@ -68,6 +68,7 @@ STRS_arrest_vehicleVictim," ""<t color='#4876FF'>Arrest</t><br/>You have been pl
 STRS_arrest_vehiclePerson," ""<t color='#4876FF'>Arrest</t><br/>You have placed player <t color='#009900'>%1</t> into your vehicle"," please only do this if the player is AFK otherwise roleplay it!""",,
 STRS_arrest_noVehicle," ""<t color='#4876FF'>Arrest</t><br/>There are no vehicles nearby which you own.""",,,
 STRS_arrest_vehicleNotify," ""%1 has been placed under arrest by %2.""",,,
+STRS_handcuffs_needWeapon," ""<t color='#4876FF'>Arrest</t><br/>You Need Handcuffs To Do This!""",,,
 ,,,,
 STRS_shop_cannotBuyRifle," ""<t color='#4876FF'>Shop</t><br/>You already have a <t color='#009900'>rifle</t>"," drop your current one first.""",,
 STRS_shop_cannotBuyPistol," ""<t color='#4876FF'>Shop</t><br/>You already have a <t color='#009900'>pistol</t>"," drop your current one first.""",,

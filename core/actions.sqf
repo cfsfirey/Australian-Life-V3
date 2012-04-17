@@ -132,10 +132,23 @@ RPP_fnc_onKeyPress =
     {
         [] spawn RPP_fnc_holsterPistol;
     };
+	
+	if (_key == 4) then /* Hands Up */
+    {
+        player playmove "amovpercmstpssurwnondnon";
+    };
 
 	if ((_key == 14) && (_shift)) then /* Handcuffs */
     {
-         [_curTarget, player] execVM "core\items\handcuffs.sqf";
+		if (player call RPP_fnc_isCop) then
+		{
+			[_curTarget, player] execVM "core\items\handcuffs.sqf";
+		};
+    };
+	
+	if ((_key == 48) && (_shift)) then /* Shift B */
+    {
+			[_curTarget, player] execVM "core\stun.sqf";
     };
 
     /* Lets do some checks anyway for vehicles and players */
