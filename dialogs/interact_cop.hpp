@@ -4,7 +4,7 @@ class RPP_Dlg_InteractCop
     movingEnable = false;
     controlsBackground[] = { Background, Footer, Header };
     objects[] = { };
-    controls[] = { Title, BtnTrade, BtnSearch, BtnDisarm, BtnArrest, BtnStun, BtnClose  };
+    controls[] = { Title, BtnTrade, BtnSearch, BtnDisarm, BtnArrest, BtnTicket, BtnClose  };
     OnLoad = " ""dynamicBlur"" ppEffectEnable true; ""dynamicBlur"" ppEffectAdjust [1.6]; ""dynamicBlur"" ppEffectCommit 0;";
     OnUnload = " ""dynamicBlur"" ppEffectEnable false; ";
         
@@ -89,10 +89,10 @@ class RPP_Dlg_InteractCop
         h = 0.0431261 * safezoneH;
     };
 
-        class BtnStun : RPP_Button
+        class BtnTicket : RPP_Button
     {
-        idc = 1700;
-        text = "Pistol Whip";
+        idc = 9999;
+        text = "Issue Ticket";
         x = 0.432426 * safezoneW + safezoneX;
         y = 0.51754093 * safezoneH + safezoneY;
         w = 0.0891026 * safezoneW;
