@@ -238,7 +238,6 @@ class Mission
 		year=2008;
 		month=2;
 		day=6;
-		hour=22;
 	};
 	class Groups
 	{
