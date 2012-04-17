@@ -362,13 +362,11 @@ RPP_fnc_serverDelVehicle =
 
 RPP_fnc_generateRegistration =
 {
-   private ["_randomStart", "_randomCentre", "_randomEnd", "_unique", "_return"];
-   _randomStart = round(random 300);
-   _randomCentre = round(random 300);
-   _randomEnd = round(random 300);
-   _unique = (round(time));
+   private ["_randomStart"];
+   _randomStart = round(random 999);
+
     
-   _return = "v" + str _randomStart + "_" + str _randomCentre + "_" + str _randomEnd + "_" + str _unique;
+   _return =  name player + "~" + str _randomStart;
    
    _return
 };
