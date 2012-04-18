@@ -111,7 +111,8 @@ _ALR_var_airFactory =
 	["qantas_C130", ["manufacture", 60, 6500]],
 	["airnz_C130", ["manufacture", 55, 4200]],
 	["usec_bell206_1", ["manufacture", 70, 8000]],
-	["GNT_C185F", ["manufacture", 45, 2250]]
+	["GNT_C185F", ["manufacture", 45, 2250]],
+	["FougaMagister4", ["manufacture", 45, 1250]]
 ];
 
 RPP_var_factoryDefine = 

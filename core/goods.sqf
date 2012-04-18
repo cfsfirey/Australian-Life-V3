@@ -110,6 +110,7 @@ RPP_var_goods =
 	["kyo_microlight_blue", ["VEHICLE", "AIR"], ["Kyo Microlight Blue", "No Desc"], [60000, 25000], 100, "core\items\noUse.sqf", 120, true, [1, [ ["IronBar", 80], ["Rubber", 20], ["Copper", 100], ["Leather" , 10], ["ElecComp", 30]]], false],
 	["kyo_microlight", ["VEHICLE", "AIR"], ["Kyo Microlight Red", "No Desc"], [60000, 25000], 100, "core\items\noUse.sqf", 120, true, [1, [ ["IronBar", 80], ["Rubber", 20], ["Copper", 100], ["Leather" , 10], ["ElecComp", 30]]], false],
 	["kyo_microlight_yellow", ["VEHICLE", "AIR"], ["Kyo Microlight Yellow", "No Desc"], [60000, 25000], 100, "core\items\noUse.sqf", 120, true, [1, [ ["IronBar", 80], ["Rubber", 20], ["Copper", 100], ["Leather" , 10], ["ElecComp", 30]]], false],
+    ["FougaMagister4", ["VEHICLE", "AIR"], ["Fouga CM-170 Magister", "No Desc"], [10000, 25000], 100, "core\items\noUse.sqf", 120, true, [1, [ ["IronBar", 40], ["Rubber", 10], ["Copper", 50], ["Leather" , 5], ["ElecComp", 15]]], false],
 
     //Cars
     ["Skoda", ["VEHICLE", "CAR"], ["Skoda White", "No Desc"], [600, 300], 120, "core\items\noUse.sqf", 220, true, [1, [ ["IronBar", 16],["Tyre", 4], ["Rubber", 10], ["Copper", 8], ["Vinyl" ,4], ["ElecComp", 5]]], false],

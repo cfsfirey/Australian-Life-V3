@@ -80,6 +80,8 @@ RPP_var_shops =
 	[shop_air_kyo_microlight_blue, "kyo_microlight_blue", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
     [shop_air_kyo_microlight, "kyo_microlight", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
 	[shop_air_kyo_microlight_yellow, "kyo_microlight_yellow", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
+	[shop_air_FougaMagister, "FougaMagister4", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
+	
 	
 	/* Westen Airpot */
 	[shop2_air_usec_bell206_2, "usec_bell206_2", "", [0,0], [] call RPP_fnc_generateID, 1, true, false],
