@@ -47,7 +47,7 @@ class RPP_Dlg_Login
         {
             y = 0.6;
             h = 0.33;
-            text = "Server Rules - (Last Updated: 06/10/11 @ 15:00)";
+            text = "Server Rules - Australian Life Alpha Test";
         };
         
         class Rules : RPP_List
