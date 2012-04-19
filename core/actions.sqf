@@ -56,7 +56,7 @@ RPP_fnc_onKeyPress =
     
     if (_foundInActionKey) exitWith {}; 
     
-    if ((_key == 18) && (vehicle player != player)) exitWith
+    if ((_key == 17) && (_shift) && (vehicle player != player)) exitWith
     {
         /* Increase speed */
         _boost = (typeOf vehicle player) call RPP_fnc_getVehicleBoost;
