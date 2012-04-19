@@ -667,7 +667,7 @@ RPP_fnc_setupShops =
         _stock = _object getVariable "stock";
     
 
-        _text = format["<t size='0.55' color='#4876FF'>%1</t><br/><t size='0.475'>%5x - %6 sz</t><br/><t size='0.45'>$%3/$%4</t><br/><t size='0.4'>(Press F to buy)<br/></t><t size='0.4'>(Press T to sell)</t>", _stringName, _picture, _buyPrice, _sellPrice, _stock, _weight];
+        _text = format["<t size='0.55' color='#4876FF'>%1</t><br/><t size='0.475'>%5x - %6 kg</t><br/><t size='0.45'>$%3/$%4</t><br/><t size='0.4'>(Press F to buy)<br/></t><t size='0.4'>(Press T to sell)</t>", _stringName, _picture, _buyPrice, _sellPrice, _stock, _weight];
         _onKeyBuy = format['[%1, ""%2"", %3, ""BUY""] call RPP_fnc_onShopAction;', _object, _class, _id];
         _onKeySell = format['[%1, ""%2"", %3, ""SELL""] call RPP_fnc_onShopAction;', _object, _class, _id];
 
@@ -703,7 +703,7 @@ RPP_fnc_setupShops =
                             %2 call RPP_fnc_disable3DText;
                             sleep 0.25;
                             _newStock = (_this select 0) getVariable "stock";
-                            _text = "<img image=""%7""/><br/><t size=""0.55"" color=""#4876FF"">%6</t><br/><t size=""0.475"">"+str _newStock+"x - %10 sz</t><br/><t size=""0.45"">$%8/$%9</t><br/><t size=""0.4"">(Press F to buy)<br/></t><t size=""0.4"">(Press T to sell)</t>";
+                            _text = "<img image=""%7""/><br/><t size=""0.55"" color=""#4876FF"">%6</t><br/><t size=""0.475"">"+str _newStock+"x - %10 kg</t><br/><t size=""0.45"">$%8/$%9</t><br/><t size=""0.4"">(Press F to buy)<br/></t><t size=""0.4"">(Press T to sell)</t>";
                             [(_this select 7), _text, (_this select 0), 0.65, 7, false] call RPP_fnc_create3DText;
                             _oldStock = (_this select 0) getVariable "stock";
                             _updated = true;

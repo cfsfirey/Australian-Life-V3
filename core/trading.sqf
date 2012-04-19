@@ -31,7 +31,7 @@ RPP_fnc_trading_load =
         _totalMass = _mass * _amount;
         if (_class call RPP_fnc_itemGetCanDrop) then
         {
-            _index = lbAdd[1500, format["%1, %2x, %3/%4 sz", _name, _amount, _mass, _totalMass]];
+            _index = lbAdd[1500, format["%1, %2x, %3/%4 kg", _name, _amount, _mass, _totalMass]];
             lbSetData[1500, _index, str[_class]];
         };
     } forEach RPP_var_inventory;
@@ -48,7 +48,7 @@ RPP_fnc_trading_load =
     
     /* Update description */
     ((findDisplay 1200) displayCtrl 1204) ctrlSetStructuredText parseText format
-    ["You are trading with %1, you can give him items by selecting the item you want to send in your inventory and using the add button, when you are finished adding all the items you wish to send then use the send button.<br/>Items giving size %2sz.<br/>Your inventory size is %3sz<br/>
+    ["You are trading with %1, you can give him items by selecting the item you want to send in your inventory and using the add button, when you are finished adding all the items you wish to send then use the send button.<br/>Items giving size %2kg.<br/>Your inventory size is %3kg<br/>
     ", name _unit, (player getVariable "trading") call RPP_fnc_trading_getSendWeight, [] call RPP_fnc_getInvSize];
 };
 

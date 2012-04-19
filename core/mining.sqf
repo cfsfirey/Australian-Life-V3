@@ -200,7 +200,7 @@ RPP_fnc_setupMines =
         _itemName = _itemClass call RPP_fnc_itemGetName;
         _itemSize = _itemClass call RPP_fnc_itemGetMass;
 
-        _text = format["<t size='0.55' color='#EEC900'>%1</t><br/><t size='0.475'>%2 - %3 sz</t><br/><t size='0.32'>(Help: Zoom in (RMB))<br/></t><t size='0.4'>(Press F to mine)<br/></t><t size='0.4'>(Press T to stop)</t>", _name, _itemName, _itemSize];
+        _text = format["<t size='0.55' color='#EEC900'>%1</t><br/><t size='0.475'>%2 - %3 kg</t><br/><t size='0.32'>(Help: Zoom in (RMB))<br/></t><t size='0.4'>(Press F to mine)<br/></t><t size='0.4'>(Press T to stop)</t>", _name, _itemName, _itemSize];
         {
             _obj = _x;
             _id = [] call RPP_fnc_generateID;

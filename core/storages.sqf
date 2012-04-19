@@ -105,7 +105,7 @@ RPP_fnc_loadStorage =
             _mass = _mass + ([(_x select 2), "weight"] call RPP_fnc_trunkGetParamVar);
         };
         
-        _index = lbAdd[2, format["%1, %2x, %3/%4 sz", _name, _amount, _mass, _totalMass]];
+        _index = lbAdd[2, format["%1, %2x, %3/%4 kg", _name, _amount, _mass, _totalMass]];
         
         if (_type == "VEHICLE") then
         {
@@ -131,7 +131,7 @@ RPP_fnc_loadStorage =
         
         if (_class call RPP_fnc_itemGetCanDrop) then
         {
-            _index = lbAdd[_idc, format["%1, %2x, %3/%4 sz", _name, _amount, _mass, _totalMass]];
+            _index = lbAdd[_idc, format["%1, %2x, %3/%4 kg", _name, _amount, _mass, _totalMass]];
             lbSetData[_idc, _index, str[_class, str _object]];
         };
     } forEach RPP_var_inventory;
@@ -147,7 +147,7 @@ RPP_fnc_loadStorage =
         
         if (_class call RPP_fnc_itemGetCanDrop) then
         {
-            _index = lbAdd[_idc, format["%1, %2x, %3/%4 sz", _name, _amount, _mass, _totalMass]];
+            _index = lbAdd[_idc, format["%1, %2x, %3/%4 kg", _name, _amount, _mass, _totalMass]];
             lbSetData[_idc, _index, str[_class, str _object]];
         };
     } forEach ([(weapons player) + (magazines player)] call RPP_fnc_createWeaponsArray);
@@ -163,7 +163,7 @@ RPP_fnc_loadStorage =
 
         if (_class call RPP_fnc_itemGetCanDrop && (player distance _x <= 20) && (_object != _x)) then
         {
-            _index = lbAdd[_idc, format["%1, %2x, %3/%4 sz", _name, _amount, _mass, _totalMass]];
+            _index = lbAdd[_idc, format["%1, %2x, %3/%4 kg", _name, _amount, _mass, _totalMass]];
             lbSetData[_idc, _index, str[_class, str _object, str _x]];
         };
     } forEach RPP_var_keyChain;
@@ -175,8 +175,8 @@ RPP_fnc_loadStorage =
     _invSize = [] call RPP_fnc_getInvSize;
     _storageMax = _object getVariable "maxSize";
     
-    ((findDisplay 500) displayCtrl 5) ctrlSetStructuredText parseText format["<t color='#4876FF'>Storage Size: %1/%2 sz</t>", _storageSize, _storageMax];
-    ((findDisplay 500) displayCtrl 4) ctrlSetStructuredText parseText format["<t color='#4876FF'>Inventory Size: %1/%2 sz</t>", _invSize, RPP_var_inventorySize];
+    ((findDisplay 500) displayCtrl 5) ctrlSetStructuredText parseText format["<t color='#4876FF'>Storage Size: %1/%2 kg</t>", _storageSize, _storageMax];
+    ((findDisplay 500) displayCtrl 4) ctrlSetStructuredText parseText format["<t color='#4876FF'>Inventory Size: %1/%2 kg</t>", _invSize, RPP_var_inventorySize];
 };
 
 RPP_fnc_trunkTake = 

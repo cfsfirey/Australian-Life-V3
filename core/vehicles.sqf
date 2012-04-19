@@ -389,7 +389,7 @@ RPP_fnc_openVehicleMenu =
     _fuel = fuel _obj;
     _name = str _obj;
     _className = _class call RPP_fnc_itemGetName;
-    ((findDisplay 600) displayCtrl 1) ctrlSetStructuredText parseText format["<t size='0.85' color='#4876FF'>Type: %5<br/>License: %1<br/>Trunk size: %2sz<br/>Damage: %3<br/>Fuel: %4<br/></t>", _name, _trunkCapacity, _health, _fuel, _className];
+    ((findDisplay 600) displayCtrl 1) ctrlSetStructuredText parseText format["<t size='0.85' color='#4876FF'>Type: %5<br/>License: %1<br/>Trunk size: %2kg<br/>Damage: %3<br/>Fuel: %4<br/></t>", _name, _trunkCapacity, _health, _fuel, _className];
     
     /* Access Trunk */
     buttonSetAction [5, format["[""%1""] call RPP_fnc_openStorage;", _obj]];

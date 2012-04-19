@@ -435,7 +435,7 @@ RPP_fnc_factoryLoadStorage =
     _storage = (_obj call RPP_fnc_factoryGetStorage);
     _size = _storage call RPP_fnc_getTrunkSize;
     
-    ((findDisplay 550) displayCtrl 4) ctrlSetStructuredText parseText format["Storage Size: %1sz", _size];
+    ((findDisplay 550) displayCtrl 4) ctrlSetStructuredText parseText format["Storage Size: %1kg", _size];
     
     lbClear 11;
     {

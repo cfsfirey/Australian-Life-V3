@@ -45,7 +45,7 @@ RPP_fnc_invSelChanged =
     
     2 call RPP_fnc_populateInventory;
    ((findDisplay 200) displayCtrl 3) ctrlSetStructuredText parseText format["<t size='0.96'>Description of %3</t><br/>%1<br/>You have: %2x", _itemDesc, _amount, _itemName];
-   ((findDisplay 200) displayCtrl 5) ctrlSetStructuredText parseText format["<t color='#4876FF'>Inventory Size: %1/%2 sz</t>", _invSize, RPP_var_inventorySize];
+   ((findDisplay 200) displayCtrl 5) ctrlSetStructuredText parseText format["<t color='#4876FF'>Inventory Size: %1/%2 kg</t>", _invSize, RPP_var_inventorySize];
 };
 
 RPP_fnc_removeIllegalItems = 
@@ -77,7 +77,7 @@ RPP_fnc_populateInventory =
         _amount = (_x select 1);
         _mass = _class call RPP_fnc_itemGetMass;
         _totalMass = _mass * _amount;
-        _index = lbAdd[_idc, format["%1, %2x, %3/%4 sz", _name, _amount, _mass, _totalMass]];
+        _index = lbAdd[_idc, format["%1, %2x, %3/%4 kg", _name, _amount, _mass, _totalMass]];
         lbSetData[_idc, _index, str[_class]];
     } forEach RPP_var_inventory;
     
