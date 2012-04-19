@@ -5,7 +5,61 @@ Copyright (C) 2011  Matthew Simms
 
 RPP_var_vehicleSpeed = 
 [
-    ["rpp_360", 1.006, 190]
+    
+	//Police Cars
+	["Copcarhw", 1.008, 250],
+	["CopcarHW2", 1.008, 250],
+	["CopcarAus", 1.010, 290],
+	["CopcarAusgreen", 1.010, 290],
+	["Fordpatrolbasic", 1.000, 130],
+	["FordUC", 1.000, 130],
+	["FordUCBlack", 1.000, 130],
+	["FordUCBlue", 1.000, 130],
+	["FordUCGreen", 1.000, 130],
+	["FordUCRed", 1.000, 130],
+	["FordUCSilver", 1.000, 130],
+	["FordUCWhite", 1.000, 130],
+	["Fordpatrolbasic", 1.000, 130],
+	["qin_evoix_black", 1.005, 250],
+	
+	//Emt
+	["CL_chargerclEMT", 1.003, 200],
+	["a2l_ambulance", 1.002, 200],
+	
+	//Ford
+	["FORD_MUSTANG_SHELBY_COBRA3", 1.004, 160],
+	["FORD_MUSTANG_SHELBY_COBRA2", 1.004, 160],
+	["FORD_MUSTANG_SHELBY_COBRA", 1.004, 160],
+	["Fordfalconblack", 1.004, 160],
+	
+	//Holden
+	["civcarbl", 1.004, 160],
+	
+	//Classic Cars
+	["challenger", 1.004, 160],
+	["barcuda", 1.003, 165],
+	
+	
+	//Jap imports
+	["NISSAN_SKYLINE_V_SPEC", 1.004, 180],
+	["NISSAN_350Z", 1.004, 170],
+	["NISSAN_370Z", 1.005, 190],
+	["NISSAN_SKYLINE_V_SPEC1", 1.004, 180],
+	["NISSAN_GTR_SPECV3", 1.008, 240],
+	["NISSAN_GTR_SPECV", 1.008, 240],
+	["NISSAN_GTR_SPECV2", 1.008, 240],
+	["NISSAN_GTR_SPECV1", 1.008, 240],
+	
+	//Sports Cars
+	["cl_charger", 1.003, 200],
+	["cl_bmwm3b", 1.008, 220],
+	["PORSCHE_911_TURBO", 1.008, 240],
+	["PORSCHE_911_GT3_RS", 1.012, 260],
+	["CL_S_COBRA", 1.002, 170],
+	["CL_PORSCHE_997", 1.011, 260],
+	["CL_LAMBORGHINI_GT3", 1.013, 290]
+
+	
 ];
 
 

@@ -4,7 +4,7 @@ Copyright (C) 2011  Matthew Simms
 */
 
 RPP_var_inventory = [ ["Keychain", 1] ];
-RPP_var_inventorySize = 150;
+RPP_var_inventorySize = 60;
 
 /* Open the inventory dialog */
 RPP_fnc_openInventory =
