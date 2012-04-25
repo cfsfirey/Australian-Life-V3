@@ -486,11 +486,13 @@ RPP_fnc_lockVehicle =
         {
             localize "STRS_vehicle_unlocked" call RPP_fnc_hint;
             [{(_this select 0) lock false}, [_obj]] call RPP_fnet_execPublic;
+			[_obj, "AUS_Unlock"] call CBA_fnc_globalSay3d;
         }
         else
         {
             localize "STRS_vehicle_locked" call RPP_fnc_hint;
             [{(_this select 0) lock true}, [_obj]] call RPP_fnet_execPublic;
+			[_obj, "AUS_Unlock"] call CBA_fnc_globalSay3d;
         };
     };
 };

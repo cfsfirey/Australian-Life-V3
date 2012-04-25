@@ -279,7 +279,8 @@ RPP_fnc_clientsRobBank =
     _amount = _this select 0;
     _robber = _this select 1;
     
-    player say3D "SndBankAlarm";
+	[mainbank, "AUS_Bank"] call CBA_fnc_globalSay3d;
+ //   player say3D "SndBankAlarm";
     
     if (player == _robber) exitWith {};
     

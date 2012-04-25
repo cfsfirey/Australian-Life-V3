@@ -83,7 +83,8 @@ while {_counter <= _repairTime} do
     titleText [format["Repairing... time remaining: %1", (_repairTime - _counter)], "PLAIN"];
 
     sleep 2;
-    _repairVcl say3D "Snd/Repair.ogg";
+	[_nearestObjects, "AUS_Repair"] call CBA_fnc_globalSay3d;
+	//    _repairVcl say3D "Snd/Repair.ogg";
     _counter = _counter + 2;
 };
 
