@@ -153,7 +153,8 @@ class Mission
 		"JAGUAR_XK",
 		"CHRYSLER_P_limmo",
 		"BMW_135I",
-		"RENAULT_CLIO_SPORT_V6"
+		"RENAULT_CLIO_SPORT_V6",
+		"ca_modules_functions"
 	};
 	addOnsAuto[]=
 	{
@@ -170,6 +171,7 @@ class Mission
 		"rav_lifter",
 		"ca_modules_animals",
 		"CLAY_Dogs",
+		"ca_modules_functions",
 		"CAWheeled",
 		"caweapons_ammoboxes",
 		"caweapons_e_ammoboxes",
@@ -308,7 +310,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=87;
+		items=88;
 		class Item0
 		{
 			side="LOGIC";
@@ -3406,6 +3408,25 @@ class Mission
 					leader=1;
 					skill=1;
 					init="this moveingunner search4; this allowdamage false; null=[this,120] execVM ""core\actions\searchlight.sqf"";";
+				};
+			};
+		};
+		class Item87
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={477.99039,84.899384,-64.162598};
+					id=1954;
+					side="LOGIC";
+					vehicle="LocationLogic";
+					leader=1;
+					skill=0.60000002;
+					text="mygamelogic";
+					init="i=[mygamelogic, 15, 8, [0, 1, -0.3], false, 1, false] spawn AFS;";
 				};
 			};
 		};

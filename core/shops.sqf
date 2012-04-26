@@ -35,17 +35,69 @@ RPP_var_shops =
 	[shop_ford8, "FordFalconRed", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
 	[shop_ford9, "FordFalconSilver", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
 	[shop_ford10, "FordFalconWhite", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_ford11, "FORD_SHELBY_GT", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	
+	/* bmw shop */
+	[shop_bmw1, "BMW_M6", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_bmw2, "BMW_M3", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_bmw4, "cl_bmwm3b", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_bmw3, "BMW_135I", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	
+	/* MERCS */
+	[shop_MERC1, "MERCEDES_BENZ_SL_65_AMG", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_MERC3, "MERCEDES_BENZ_CLK_500", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_MERC2, "MERCEDES_BENZ_SLR", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	
+	/* LAMBORGINI SHOP */
+	[shop_sport7, "CL_LAMBORGHINI_GT3", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_gallardo, "LAMBORGHINI_GALLARDO", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_reventon, "LAMBORGHINI_REVENTON", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_murcielargo, "LAMBORGHINI_MURCIELAGO", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	
+	/* exotics */	
+	[shop_mclaren, "MCLAREN_F1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_veyron, "BUGATTI_VEYRON", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_zonda, "PAGANI_ZONDA_F", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_fordgt, "FORD_GT", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	
+	/* porsche */
+	[shop_porsche1, "PORSCHE_997_GT3_RSR", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	
+	/* koenigsegg shop */
+	[shop_koenig2, "KOENIGSEGG_CCX1", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_koenig4, "KOENIGSEGG_CCX3", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_koenig3, "KOENIGSEGG_CCX2", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_koenig1, "KOENIGSEGG_CCX", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	
+	// misc shop
+	[shop_wrx, "SUBARU_IMPREZA_WRX_STI_AWD", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_alfa, "ALFA_ROMEO_BRERA", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_audi, "AUDI_FSI_LE_MANS", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_clio, "RENAULT_CLIO_SPORT_V6", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_mazda2, "MAZDA_RX_71", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_mazda4, "MAZDA_RX_74", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_mazda1, "MAZDA_RX_7", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_mazda3, "MAZDA_RX_72", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	
+	// muscle
+	[shop_corvette, "CORVETTE_Z06", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_chevelle, "chevrolet_chevelle", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_camaross, "CHEVROLET_CAMARO_SS_396", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_aston, "ASTON_MARTIN_DB9", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_viper, "DODGE_VIPER_SRT10", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_jag, "JAGUAR_XK", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_pink300, "CHRYSLER_P_limmo", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_white300, "CHRYSLER_W_limmo", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	[shop_300, "CHRYSLER_300", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
+	
 	
 	/* Sports Cars */
 	[shop_sport1, "PORSCHE_911_TURBO", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
 	[shop_sport2, "PORSCHE_911_GT3_RS", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-	[shop_sport3, "CL_S_COBRA", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
 	[shop_sport4, "CL_PORSCHE_997", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-	[shop_sport5, "cl_bmwm3b", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
 	[shop_sport6, "cl_charger", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-	[shop_sport7, "CL_LAMBORGHINI_GT3", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
-	[shop_sport8, "Convertible_MLOD", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
 	
+		
 	/* Nissan Shop */
 	[shop_nissan1, "NISSAN_SKYLINE_GT_R_Z3", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
 	[shop_nissan2, "NISSAN_SKYLINE_V_SPEC", "", [0,0], [] call RPP_fnc_generateID, 4, true, true],
@@ -110,6 +162,8 @@ RPP_var_shops =
 	[shop_ucfalcon_6, "FordUCWhite", "", [0,0], [] call RPP_fnc_generateID, 99, false, true],
 	[shop_Copcarfed, "CopcarAus", "", [0,0], [] call RPP_fnc_generateID, 99, false, true],
 	[shop_Copcarfed2, "CopcarAusgreen", "", [0,0], [] call RPP_fnc_generateID, 99, false, true],
+	[shop_cop_lambo, "CL_LAMBORGHINIclpd", "", [0,0], [] call RPP_fnc_generateID, 99, false, true],
+	[shop_cop_porsche, "CL_PORSCHEclpd", "", [0,0], [] call RPP_fnc_generateID, 99, false, true],
 
 	
 	/* Emergency Service Vehicles */

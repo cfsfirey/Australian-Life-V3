@@ -21,6 +21,8 @@ RPP_var_vehicleSpeed =
 	["FordUCWhite", 1.000, 130],
 	["Fordpatrolbasic", 1.000, 130],
 	["qin_evoix_black", 1.005, 250],
+	["CL_LAMBORGHINIclpd", 1.016, 390],
+	["CL_PORSCHEclpd", 1.013, 290],
 	
 	//Emt
 	["CL_chargerclEMT", 1.003, 200],
@@ -31,6 +33,7 @@ RPP_var_vehicleSpeed =
 	["FORD_MUSTANG_SHELBY_COBRA2", 1.004, 160],
 	["FORD_MUSTANG_SHELBY_COBRA", 1.004, 160],
 	["Fordfalconblack", 1.004, 160],
+	["FORD_SHELBY_GT", 1.007, 240],
 	
 	//Holden
 	["civcarbl", 1.004, 160],
@@ -38,9 +41,18 @@ RPP_var_vehicleSpeed =
 	//Classic Cars
 	["challenger", 1.004, 160],
 	["barcuda", 1.003, 165],
+	// bmw
+	["bmw_m6", 1.010, 250],
+	["cl_bmwm3b", 1.008, 220],
+	["BMW_M3", 1.005, 220],
+	
+	// MERCS
+	["MERCEDES_BENZ_SL_65_AMG", 1.008, 220],
+	["MERCEDES_BENZ_CLK_500", 1.004, 220],
+	["MERCEDES_BENZ_SLR", 1.009, 250],
 	
 	
-	//Jap imports
+	//NISSAN SHOP
 	["NISSAN_SKYLINE_V_SPEC", 1.004, 180],
 	["NISSAN_350Z", 1.004, 170],
 	["NISSAN_370Z", 1.005, 190],
@@ -50,14 +62,57 @@ RPP_var_vehicleSpeed =
 	["NISSAN_GTR_SPECV2", 1.008, 240],
 	["NISSAN_GTR_SPECV1", 1.008, 240],
 	
+	// LAMBO SHOP
+	["CL_LAMBORGHINI_GT3", 1.017, 380],
+	["LAMBORGHINI_GALLARDO", 1.011, 320],
+	["LAMBORGHINI_REVENTON", 1.015, 320],
+	["LAMBORGHINI_MURCIELAGO", 1.013, 320],
+	
+	// exotic
+	["MCLAREN_F1", 1.015, 315],
+	["BUGATTI_VEYRON", 1.021, 417],
+	["PAGANI_ZONDA_F", 1.011, 319],
+	["FORD_GT", 1.014, 341],
+	
+	// porsche
+	["PORSCHE_997_GT3_RSR", 1.009, 240],
+	
+	// Koenigseggs
+	["KOENIGSEGG_CCX1", 1.014, 350],
+	["KOENIGSEGG_CCX2", 1.014, 350],
+	["KOENIGSEGG_CCX3", 1.014, 350],
+	["KOENIGSEGG_CCX", 1.014, 350],
+	
+	// misc shop
+	["SUBARU_IMPREZA_WRX_STI_AWD", 1.005, 210],
+	["ALFA_ROMEO_BRERA", 1.001, 200],
+	["AUDI_FSI_LE_MANS", 1.004, 200],
+	["RENAULT_CLIO_SPORT_V6", 1.002, 200],
+	
+	// mazda shop
+	["MAZDA_RX_71", 1.003, 200],
+	["MAZDA_RX_74", 1.003, 200],
+	["MAZDA_RX_7", 1.003, 200],
+	["MAZDA_RX_72", 1.003, 200],
+	
+	// muscle
+	["CORVETTE_Z06", 1.005, 260],
+	["chevrolet_chevelle", 1.004, 200],
+	["CHEVROLET_CAMARO_SS_396", 1.003, 200],
+	["ASTON_MARTIN_DB9", 1.008, 250],
+	["DODGE_VIPER_SRT10", 1.006, 250],
+	["CHRYSLER_W_limmo", 1.003, 220],
+	["JAGUAR_XK", 1.005, 220],
+	["CHRYSLER_P_limmo", 1.003, 220],
+	["CHRYSLER_300", 1.003, 220],
+
+	
 	//Sports Cars
 	["cl_charger", 1.003, 200],
-	["cl_bmwm3b", 1.008, 220],
 	["PORSCHE_911_TURBO", 1.008, 240],
 	["PORSCHE_911_GT3_RS", 1.012, 260],
 	["CL_S_COBRA", 1.002, 170],
-	["CL_PORSCHE_997", 1.011, 260],
-	["CL_LAMBORGHINI_GT3", 1.013, 290]
+	["CL_PORSCHE_997", 1.014, 290]
 
 	
 ];
@@ -85,7 +140,9 @@ if (isServer) then /* Init server stuff */
                     }
                     else
                     {
-                        [_veh, 60] spawn RPP_fnc_serverDelVehicle;
+                       
+						this = [_x, 15, 5, [0, 1, -0.3], true, 1, false] spawn AFS;
+						
                     };
                 };
             } forEach _vehicles;

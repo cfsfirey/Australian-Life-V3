@@ -310,7 +310,7 @@ if (!__isServer) then
 if (RPP_Debug) then
 {
 	['Pickaxe', 1] call RPP_fnc_addInventoryItem;
-    ['money', 99999] call RPP_fnc_addInventoryItem;
+    ['money', 999999] call RPP_fnc_addInventoryItem;
     ['Phone', 1] call RPP_fnc_addInventoryItem;
     ['MedicalBag', 0] call RPP_fnc_addInventoryItem;
 	
@@ -349,6 +349,7 @@ waitUntil {scriptDone _script};
 [] spawn ALR_acre_radios;
 
 progressLoadingScreen 0.99;
+_nul = [] execVM "AFS\AFS_Init.sqf";
 
 
 //createDialog "RPP_Dlg_Ticket";

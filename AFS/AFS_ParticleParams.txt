@@ -1,0 +1,29 @@
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+//	COMMENTS
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+//PARTICLE PARAMS (OFPEC)
+
+/*
+[ShapeName,					1
+AnimationName,				2
+Type,						3
+TimerPeriod,					4
+LifeTime,						5
+Position,						6
+MoveVelocity,					7
+RotationVelocity,				8
+Weight,						9
+Volume,						10
+Rubbing,						11
+Size,							12
+Color,						13
+AnimationPhase,				14
+RandomDirectionPeriod,			15
+RandomDirectionIntensity,		16
+OnTimer,						17
+BeforeDestroy,					18
+Object]						19
+*/
