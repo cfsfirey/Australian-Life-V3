@@ -288,9 +288,10 @@ RPP_fnc_forestry_chopTreeTrunk =
         {
             localize "STRS_forestry_chopTrunk" call RPP_fnc_hint;
             RPP_var_cuttingTree = true;
-            [{ (_this select 0) switchMove (_this select 1); }, [player, (_anims select 1)]] call RPP_fnet_execPublic;
-            sleep 2;
-            RPP_var_cuttingTree = false;
+			[{ (_this select 0) switchMove (_this select 1); }, [player, (_anims select 1)]] call RPP_fnet_execPublic;
+			sleep 2;
+            [player, "AUS_Wood"] call CBA_fnc_globalSay3d;
+			RPP_var_cuttingTree = false;
             _numResources = (_object) getVariable "numResources";
             _resourceClass = (_object) getVariable "resourceClass";
 
@@ -471,9 +472,9 @@ RPP_fnc_forestry_cutTree =
         if !(RPP_var_cuttingTree) then
         {
             RPP_var_cuttingTree = true;
-
-            [{ (_this select 0) switchMove (_this select 1); }, [player, (_anims select 0)]] call RPP_fnet_execPublic;
-
+			[{ (_this select 0) switchMove (_this select 1); }, [player, (_anims select 0)]] call RPP_fnet_execPublic;
+			sleep 1;
+			[player, "AUS_Wood"] call CBA_fnc_globalSay3d;
             format[localize "STRS_forestry_cutTree", ((round(_totalTime * 100))/100)] call RPP_fnc_Hint;
             sleep _totalTime;
             _damage = (_object) getVariable "damage";

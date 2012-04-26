@@ -312,7 +312,7 @@ if (RPP_Debug) then
 	['Pickaxe', 1] call RPP_fnc_addInventoryItem;
     ['money', 999999] call RPP_fnc_addInventoryItem;
     ['Phone', 1] call RPP_fnc_addInventoryItem;
-    ['MedicalBag', 0] call RPP_fnc_addInventoryItem;
+    ['MedicalBag', 1] call RPP_fnc_addInventoryItem;
 	
 };
 

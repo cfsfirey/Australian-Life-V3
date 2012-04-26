@@ -1,3 +1,3 @@
 
 
-//[] call RPP_fnc_medical_openMedicalBag;
+[] call RPP_fnc_medical_openMedicalBag;

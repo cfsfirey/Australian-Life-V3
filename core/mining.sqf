@@ -118,6 +118,7 @@ RPP_fnc_mineResource =
         if ((_remainingTime % 8 == 0) && (_remainingTime != 0) && (_remainingTime != _time)) then
         {
             [{(_this select 0) switchMove "AmovPercMstpSnonWnonDnon_sekani2";}, [player]] call RPP_fnet_execPublic;
+			[player, "AUS_Mine"] call CBA_fnc_globalSay3d;
         };
 
         if (_remainingTime <= 0) then

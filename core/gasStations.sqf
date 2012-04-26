@@ -110,6 +110,7 @@ RPP_fnc_refuelVehicle =
         
         _vehicle setFuel (fuel _vehicle + 0.025);
         
+		[_vehicle, "AUS_Fuel"] call CBA_fnc_globalSay3d;
         titleText [format["Refueling...\n\nFuel: %1\nPrice: $%2\nBill: $%3", fuel _vehicle, _totalCost, _bill], "PLAIN"];
     
     

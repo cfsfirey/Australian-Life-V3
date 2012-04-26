@@ -35,6 +35,7 @@ _roll = random 100;
 
 if (_roll <= _chance) then /* Success */
 {
+	[_nearestObjects, "AUS_Alarm"] call CBA_fnc_globalSay3d;
     localize "STRS_item_lockpick_success" call RPP_fnc_hint;
     [{(_this select 0) lock false}, [_vcl]] call RPP_fnet_execPublic;
     [_class, -1] call RPP_fnc_addInventoryItem;
@@ -42,6 +43,7 @@ if (_roll <= _chance) then /* Success */
 }
 else /* Fail */
 {
+	[_nearestObjects, "AUS_Alarm"] call CBA_fnc_globalSay3d;
     localize "STRS_item_lockpick_broken" call RPP_fnc_hint;
     [{ if (player distance (_this select 0) <= 20) then { (_this select 0) say3D "SndCarAlarm"; }; }, [_vcl]] call RPP_fnet_execPublic;
     [_class, -1] call RPP_fnc_addInventoryItem;
