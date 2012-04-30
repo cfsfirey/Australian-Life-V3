@@ -40,10 +40,10 @@ RPP_var_forestry_sprouts =
 	//TIER 3
 	["pumpkin_seed", "BUSH", "pumpkin_patch", "MAP_p_urtica", 20, ["pumpkin_seed", 5, "", "normal"], 35, "Pumpkin Patch", ["forestry", 25, 1240]],
 	["pine_seed", "TREE", "pine_tree", "MAP_t_picea2s", 30, ["pine_seed", 12, "sickle", "normal"], 20, "Pine Tree", ["forestry", 40, 1650]],
-	["mari_seed", "BUSH", "mari_bush", "AS_p_fiberPlant_EP1", 20, ["mari_seed", 5, "", "normal"], 35, "Marihuana Bush", ["forestry", 40, 1650]],	
+	["mari_seed", "BUSH", "mari_bush", "AS_p_fiberPlant_EP1", 20, ["mari_seed", 5, "", "normal"], 35, "Marihuana Bush", ["forestry", 10, 1650]],	
 	
 	//TIER 4
-	["cocaine_seed", "BUSH", "cocaine_bush", "as_t_JuniperusC2s_EP1", 40, ["cocaine_seed", 12, "sickle", "normal"], 40, "Cocaine Bush", ["forestry", 45, 2350]],
+	["cocaine_seed", "BUSH", "cocaine_bush", "as_t_JuniperusC2s_EP1", 40, ["cocaine_seed", 12, "sickle", "normal"], 40, "Cocaine Bush", ["forestry", 30, 2350]],
 	["larix_seed", "TREE", "larix_tree", "MAP_t_larix3s", 20, ["larix_seed", 8, "sickle", "normal"], 15, "Larix Tree", ["forestry", 50, 3250]],
 	
 	//TIER 5
