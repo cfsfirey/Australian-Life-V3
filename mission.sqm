@@ -3432,7 +3432,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1867;
+		items=1870;
 		class Item0
 		{
 			position[]={2463.3181,4.1295543,4589.1787};
@@ -23260,10 +23260,43 @@ class Mission
 			text="shop_cop_porsche";
 			init="this allowdamage false;";
 		};
+		class Item1867
+		{
+			position[]={2655.8708,4.1295543,3687.74};
+			azimut=361.44501;
+			special="NONE";
+			id=1955;
+			side="EMPTY";
+			vehicle="Misc_cargo_cont_small_EP1";
+			lock="UNLOCKED";
+			skill=0.2;
+			text="wep_factory_storage";
+		};
+		class Item1868
+		{
+			position[]={2658.7576,4.1295543,3664.29};
+			azimut=270.21701;
+			special="NONE";
+			id=1956;
+			side="EMPTY";
+			vehicle="MAP_PowerGenerator";
+			lock="UNLOCKED";
+			skill=0.2;
+			text="wep_factory";
+		};
+		class Item1869
+		{
+			position[]={2658.561,4.1295543,3676.3723};
+			azimut=89.988808;
+			id=1957;
+			side="EMPTY";
+			vehicle="ASC_EU_LHVSidl3";
+			skill=1;
+		};
 	};
 	class Markers
 	{
-		items=135;
+		items=136;
 		class Item0
 		{
 			position[]={1886.376,4.1295543,4219.2949};
@@ -24512,6 +24545,16 @@ class Mission
 			text="MISC Dealership";
 			type="mil_flag";
 			colorName="ColorBlue";
+			a=0.64999998;
+			b=0.64999998;
+		};
+		class Item135
+		{
+			position[]={2653.8015,4.1295543,3672.7783};
+			name="manufacturing_factory_1";
+			text="Weapons Factory";
+			type="mil_flag";
+			colorName="ColorGreen";
 			a=0.64999998;
 			b=0.64999998;
 		};

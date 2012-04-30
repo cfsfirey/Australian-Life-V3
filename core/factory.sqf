@@ -20,20 +20,26 @@ _RPP_var_itemFactory =
     ["Fishing_rod", ["manufacture", 15, 900]]
 ];
 
-//_AUS_var_wepFactory = 
-//[
-//	["Skoda", ["weapons", 1, 750]],
-//	["SkodaRed", ["weapons", 1, 750]],
-//	["SkodaBlue", ["weapons", 1, 750]],
-//	["SkodaGreen", ["weapons", 10, 750]],
-//	["VWGolf", ["weapons", 10, 900]],
-//	["car_hatchback", ["weapons", 10, 820]],
-//	["car_sedan", ["weapons", 50, 820]],
-//	["Lada1_TK_CIV_EP1", ["weapons", 50, 820]],
-//	["Lada2_TK_CIV_EP1", ["weapons", 50, 820]],
-//	["Volha_1_TK_CIV_EP1", ["weapons", 90, 820]],
-//	["Volha_2_TK_CIV_EP1", ["weapons", 90, 820]]
-//];
+_AUS_var_wepFactory = 
+[
+	["M9", ["weapons", 1, 750]],
+	["15Rnd_9x19_M9", ["weapons", 1, 750]],
+	["Colt1911", ["weapons", 1, 750]],
+	["7Rnd_45ACP_1911", ["weapons", 1, 750]],
+	["G36a", ["weapons", 15, 900]],
+	["30Rnd_556x45_G36", ["weapons", 15, 900]],
+	["M4A1", ["weapons", 30, 900]],
+	["30Rnd_556x45_Stanag", ["weapons", 30, 900]],
+	["M24", ["weapons", 50, 820]],
+	["5Rnd_762x51_M24", ["weapons", 50, 820]],
+	["M8_sharpshooter", ["weapons", 50, 820]],
+	["30Rnd_556x45_G36", ["weapons", 50, 820]],
+	["AKS_74_U", ["weapons", 60, 900]],
+	["30Rnd_545x39_AK", ["weapons", 60, 900]],
+	["Igla", ["weapons", 70, 820]],
+	["PipeBomb", ["weapons", 90, 820]],
+	["TimeBomb", ["weapons", 90, 820]]
+];
 
 _ALR_var_carFactory = 
 [
