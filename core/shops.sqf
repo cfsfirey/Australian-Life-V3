@@ -356,6 +356,9 @@ RPP_var_shops =
 	[shop_concrete, "Concrete", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_shop2_plank, "Plank", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 	[shop_shop2_beam, "Beam", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
+	
+	/* Alcohol */
+	[shop_bar, "Beer", "", [0, 0], [] call RPP_fnc_generateID, 1, true, true],
 
     /* Drug Equipment */
 	[cocaine_seeds, "cocaine_seed", "", [0,0], [] call RPP_fnc_generateID, 50, true, false],

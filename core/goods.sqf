@@ -337,6 +337,7 @@ RPP_var_goods =
     ["mari", ["ITEM", "DRUG"], ["Marihuana", "No Desc"], [70,60], 1, "core\items\drugUse.sqf", 0, true, [], true],
 	["cocaine", ["ITEM", "DRUG"], ["Cocaine", "No Desc"], [90,75], 1, "core\items\drugUse.sqf", 0, true, [], true],
 	["herion", ["ITEM", "DRUG"], ["Herion", "No Desc"], [170,160], 1, "core\items\drugUse.sqf", 0, true, [], true],
+	["Beer", ["ITEM", "DRUG"], ["Beer", "No Desc"], [10,5], 0, "core\items\drugUse.sqf", 0, true, [], true],
     	
 	//Resources
 	/* Food Resources */
