@@ -309,7 +309,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=88;
+		items=93;
 		class Item0
 		{
 			side="LOGIC";
@@ -3426,6 +3426,101 @@ class Mission
 					skill=0.60000002;
 					text="mygamelogic";
 					init="i=[mygamelogic, 15, 8, [0, 1, -0.3], false, 1, false] spawn AFS;";
+				};
+			};
+		};
+		class Item88
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4949.1177,4.1295543,3422.2607};
+					azimut=-86.05394;
+					id=1958;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="VIPspawn1";
+				};
+			};
+		};
+		class Item89
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={67.11824,40,3281.731};
+					azimut=-281.552;
+					id=1959;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="VIPspawn2";
+				};
+			};
+		};
+		class Item90
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={136.82343,4.1295543,1902.7515};
+					azimut=56.420898;
+					id=1960;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="VIPspawn3";
+				};
+			};
+		};
+		class Item91
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3195.834,41.297138,111.19458};
+					azimut=-12.0918;
+					id=1961;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="VIPspawn4";
+				};
+			};
+		};
+		class Item92
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={4178.1738,30,1775.97};
+					azimut=-98.152397;
+					id=1962;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="VIPspawn5";
 				};
 			};
 		};
@@ -23296,7 +23391,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=136;
+		items=137;
 		class Item0
 		{
 			position[]={1886.376,4.1295543,4219.2949};
@@ -24557,6 +24652,16 @@ class Mission
 			colorName="ColorGreen";
 			a=0.64999998;
 			b=0.64999998;
+		};
+		class Item136
+		{
+			position[]={2105.2939,15.729456,4422.168};
+			name="policebase";
+			type="mil_flag";
+			colorName="ColorBlue";
+			a=0.64999998;
+			b=0.64999998;
+			angle=-0.61570603;
 		};
 	};
 };

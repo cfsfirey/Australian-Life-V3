@@ -187,6 +187,9 @@ waitUntil {scriptDone _script};
 _script = [] execVM "core\saving.sqf";
 waitUntil {scriptDone _script};
 
+//_script = [] execVM "core\governmentconvoy.sqf";
+//waitUntil {scriptDone _script};
+
 _script = [] execVM "database\databaseDefine.sqf";
 waitUntil {scriptDone _script};
 
