@@ -3452,7 +3452,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1872;
+		items=1874;
 		class Item0
 		{
 			position[]={2463.3181,4.1295543,4589.1787};
@@ -6852,8 +6852,8 @@ class Mission
 		};
 		class Item295
 		{
-			position[]={1950.8408,12,3248.8091};
-			azimut=-178.8833;
+			position[]={1941.3866,12,3267.895};
+			azimut=55.069786;
 			id=330;
 			side="EMPTY";
 			vehicle="du_atm";
@@ -6882,7 +6882,7 @@ class Mission
 		};
 		class Item298
 		{
-			position[]={2010.1409,12,3226.9443};
+			position[]={2004.8868,12,3223.1104};
 			azimut=597.03632;
 			id=333;
 			side="EMPTY";
@@ -6893,7 +6893,7 @@ class Mission
 		};
 		class Item299
 		{
-			position[]={2030.2635,12,3191.7722};
+			position[]={2025.0095,12,3187.9382};
 			azimut=600.0545;
 			id=334;
 			side="EMPTY";
@@ -6958,7 +6958,7 @@ class Mission
 		};
 		class Item305
 		{
-			position[]={2004.1346,12,3223.4912};
+			position[]={1998.8806,12,3219.6572};
 			azimut=778.88397;
 			id=340;
 			side="EMPTY";
@@ -6968,7 +6968,7 @@ class Mission
 		};
 		class Item306
 		{
-			position[]={2023.2947,12,3187.7051};
+			position[]={2018.0406,12,3183.8711};
 			azimut=781.90216;
 			id=341;
 			side="EMPTY";
@@ -18025,21 +18025,21 @@ class Mission
 		};
 		class Item1350
 		{
-			position[]={1891.9254,12,3349.0703};
+			position[]={1885.8802,12,3364.3096};
 			azimut=240.49001;
 			id=1424;
 			side="EMPTY";
-			vehicle="Misc_palletsfoiled_heap";
+			vehicle="Info_Board_EP1";
 			skill=0.60000002;
 			text="airpri_storage1";
 		};
 		class Item1351
 		{
-			position[]={1894.1544,12,3344.9014};
+			position[]={1904.3557,12,3329.9143};
 			azimut=240.49001;
 			id=1425;
 			side="EMPTY";
-			vehicle="Misc_palletsfoiled_heap";
+			vehicle="Info_Board_EP1";
 			skill=0.60000002;
 			text="airpub_storage1";
 		};
@@ -23322,6 +23322,22 @@ class Mission
 			skill=0.60000002;
 			init="this allowdamage false;this setpos [getPos this select 0, getPos this select 1, (getPos this select 2) + 7.95];";
 		};
+		class Item1872
+		{
+			position[]={1904.4691,12,3329.8359};
+			id=1961;
+			side="EMPTY";
+			vehicle="ASC_EU_LHVSidl3";
+			skill=1;
+		};
+		class Item1873
+		{
+			position[]={1886.0061,12,3364.342};
+			id=1962;
+			side="EMPTY";
+			vehicle="ASC_EU_LHVSidl3";
+			skill=1;
+		};
 	};
 	class Markers
 	{
@@ -23703,14 +23719,14 @@ class Mission
 		};
 		class Item39
 		{
-			position[]={1951.0957,12,3248.5898};
+			position[]={1941.3702,12,3267.8904};
 			name="MainBank_1_1";
 			text="ATM";
 			type="mil_flag";
 			colorName="ColorGreen";
 			a=0.64999998;
 			b=0.64999998;
-			angle=-361.04059;
+			angle=-357.73428;
 		};
 		class Item40
 		{
